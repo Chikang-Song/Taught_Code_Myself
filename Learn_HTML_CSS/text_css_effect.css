@@ -1,0 +1,58 @@
+*{
+    border: 0px;
+    background-color: white;
+}
+
+h2{
+    color: darkred;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Ellipsis word effect*/
+.ellipsis p{
+    width: 170px;
+    border: 2px solid brown;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}D
+.ellipsis p:hover{
+    overflow: visible;
+}
+
+/*Clip word effect*/
+.clip p{
+    border: 2px solid brown;
+    width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+}
+.clip p:hover{
+    overflow: visible;
+}
+/*Vertical Text effect*/
+.vert {
+    writing-mode: vertical-rl;
+    border: 2px solid brown;
+}
+/*Word Wrap*/
+.wrap{
+    word-wrap: break-word;
+    width: 50px;
+    border: 2px solid brown;
+}
+/*Text Shadow*/
+.text_shadow h1{
+    background-color: black;
+    font-family: 'Papyrus';
+    text-shadow: 0 0 30px green, 
+        0 0 5px white;
+}
+/*
+1 -> X-coordinate
+2 -> Y-coordinate
+3 -> Blur radius
+4 -> Shadow Color
+*/
+
+

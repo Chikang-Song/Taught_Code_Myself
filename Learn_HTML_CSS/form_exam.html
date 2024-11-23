@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <form>
+            <div>
+                <label for="email">Email Address</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+                <label for="booking_date">Booking Date</label><br>
+                <input type="date" id="booking_date" name="booking_date">
+            </div>
+            <div>
+                <label for="number_of_people">Number of People</label><br>
+                <input type="number" id="number_of_people" name="number_of_people" required min="1" max="8">
+            </div>
+            <div>
+                <label for="agree">
+                    <input type="checkbox" id="agree" name="agree" required>
+                    I agree to the cancellation policy.
+                </label>
+            </div>
+
+            <!--form for rating field-->
+            <div>
+                <label for="rating">Rating</label>
+                <input type="range" id="rating" name="rating" min="1" max="5" list="ratings" oninput="this.nextElementSibling.value = this.value">
+                <output>3</output>
+                <datalist id="ratings">
+                    <option value="1" label="1"></option>
+                    <option value="2"></option>
+                    <option value="3"></option>
+                    <option value="4"></option>
+                    <option value="5" label="5"></option>
+                </datalist>
+            </div>
+            <button type="submit">Book Now</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+</body>
+</html>

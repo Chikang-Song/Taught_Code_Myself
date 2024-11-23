@@ -1,0 +1,73 @@
+/* 모든 요소에 기본 폰트 패밀리를 Monaco로 설정 */
+* {
+    font-family: Monaco;
+}
+
+/* 클래스 menu와 ll에 중앙 정렬과 오렌지색 텍스트 색상 적용 */
+.menu, .ll {
+    text-align: center;
+    color: #fa9f42;
+}
+
+/* 클래스 ll에 폰트 크기, 하단 여백, 하단 테두리 적용 */
+.ll {
+    font-size: 30px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #495e57;
+}
+
+/* 메뉴 컨테이너의 최대 너비 설정 및 중앙 정렬 */
+.menu-container {
+    max-width: 800px;
+    display: flex;
+    justify-content: center;
+    background-color: #e0e0e2;
+}
+
+/* 클래스 section에 10px 패딩 적용 (지침 1) */
+.section {
+    padding: 10px;
+}
+
+/* 클래스 label에 폰트 굵기 bold 적용 (지침 2) */
+.label {
+    font-weight: bold;
+}
+
+/* 클래스 description에 폰트 스타일을 이탤릭으로 설정하고 상단에 테두리 추가 (지침 3, 4) */
+.description {
+    font-style: italic;
+    border-top: 2px solid #495E57;
+}
+
+/* 클래스 item-name에 여백과 폰트 크기 설정 (지침 5) */
+.item-name {
+    margin: 25px;
+    font-size: 12px;
+}
+
+/* b 태그에 오른쪽 정렬, 상단 마진 및 텍스트 색상 설정 (지침 6, 7, 8) */
+b {
+    float: right;
+    margin-top: -15px;
+    color: darkcyan;
+}
+
+/* div 다음에 나오는 h3 태그에 폰트 크기, 여백, 중앙 정렬, 색상 설정 (지침 9) */
+div > h3 {
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    color: #495E57;
+}
+
+/* 클래스 label 다음에 나오는 클래스 low 요소의 텍스트 색상 갈색으로 설정 (지침 10) */
+.label + .low {
+    color: brown;
+}
+
+/* div 요소 다음에 나오는 모든 div 요소의 색상을 rgb(90, 90, 90)으로 설정 (지침 11) */
+div ~ div {
+    color: rgb(90, 90, 90);
+}
+

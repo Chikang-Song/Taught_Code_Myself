@@ -1,0 +1,16 @@
+.a {
+    margin: 30px;
+    transition: transform 5s; /* transition 속성에 transform을 명시 */
+}
+
+.b {
+    margin: 100px;
+    transition: transform 5s; /* transition 속성에 transform을 명시 */
+}
+
+.a.animate {
+    transform: skewX(50deg); /* hover 시에만 transform이 적용되도록 설정 */
+}
+.b.animate {
+    transform: rotate(20deg); /* hover 시에만 transform이 적용되도록 설정 */
+}

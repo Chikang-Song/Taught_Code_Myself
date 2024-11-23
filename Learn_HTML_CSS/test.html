@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Little Lemon Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Little Lemon Logo">
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="location.html">Location</a></li>
+            <li><a href="blog.html">Blog</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h1>Blog</h1>
+        <article>
+            <h2>20% off this weekend</h2>
+            <p>Come and enjoy a 20% discount on all meals this weekend only!</p>
+        </article>
+        <article>
+            <h2>Our new menu</h2>
+            <p>Check out our new menu with fresh and exciting dishes added just for you!</p>
+        </article>
+    </main>
+
+    <section>
+        <h2>Input Types</h2>
+        <input type="button" value="Click me" onclick="msg()">
+        <button onclick="alert('Are you sure you want to continue?')">
+            <img src="test.jfif" alt="Submit the form" height="64" width="64">
+        </button>
+    </section>
+    
+    <section>
+        <h2>CheckBox</h2>
+        <div>
+            <input type="checkbox" id="dog" name="pet" value="Dog">
+            <label for="dog">I like a dog</label>
+            <input type="checkbox" id="cat" name="pet" value="Cat">
+            <label for="cat">I love a cat</label>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Radio button</h2>
+        <div>
+            <input type="radio" id="light" name="theme" value="Light">
+            <label for="light">Light</label>
+            <input type="radio" id="dark" name="theme" value="Dark">
+            <label for="dark">Dark</label>
+        </div>
+    </section>
+    
+    <section>
+        <h2>Submit Form</h2>
+        <!-- HTML 폼을 서버에 제출하는 버튼 -->
+        <form action="myserver.com" method="post">
+            <div>
+                <!-- 기본적인 한 줄 텍스트 필드. -->
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname">
+            </div>
+            <div>
+                <!--비밀번호와 같은 민감한 정보를 위한 한 줄 텍스트 필드로, 값이 가려짐-->
+                <label for="pwd">Password:</label>
+                <input type="password" id="pwd" name="pwd">
+            </div>
+            <div>
+                <!--날짜 입력을 위한 필드로, 연도, 월, 일만 입력-->
+                <label for="dob">Date of birth:</label>
+                <input type="date" id="dob" name="dob">
+            </div>
+            <div>
+                <!--날짜와 시간을 입력하는 필드로, 시간과 분까지 포함-->
+                <label for="birthdaytime">Birthday (date and time):</label>
+                <input type="datetime-local" id="birthdaytime" name="birthdaytime">
+            </div>
+            <div>
+                <!-- 이메일 주소를 위한 필드로, 자동 유효성 검사를 수행 -->
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div>
+                <!-- 사용자가 컴퓨터에서 파일을 선택하고 업로드할 수 있는 필드 -->
+                <label for="myfile">Select a file:</label>
+                <input type="file" id="myfile" name="myfile">
+            </div>
+            <div>
+                <!-- 화면에 표시되지 않지만 서버에 제출되는 필드 -->
+                <input type="hidden" id="custId" name="custId" value="3487">
+            </div>
+            <div>
+                <!--그래픽 제출 버튼으로, src 속성을 사용하여 이미지 파일 위치를 지정-->
+                <input type="image" src="test.jfif" alt="Submit" width="48" height="48">
+            </div>
+            <div>
+                <!--숫자 입력을 위한 필드로, min 및 max 속성을 사용해 허용되는 값의 범위를 설정-->
+                <input type="number" id="quantity" name="quantity" min="1" max="5">
+            </div>
+            <!-- HTML 폼을 서버에 제출하는 버튼 -->
+            <input type="submit" value="Submit">
+            <!--폼의 내용을 기본값으로 재설정하는 버튼-->
+            <input type="reset">
+        </form>        
+    </section>
+    <hr>
+    <section>
+        <div>
+            <!--특정 범위 내의 숫자를 지정하는 슬라이더 입력-->
+            <label for="volumn">Volumn:</label>
+            <input type="range" id="volumn" name="volumn" min="0" max="10">
+        </div>
+        <div>
+            <!--검색 쿼리를 입력하는 필드-->
+            <label for="gsearch">Search in Google:</label>
+            <input type="search" id="gsearch" name="gsearch">
+        </div>
+        <div>
+            <!--시간 값을 시간과 분으로 입력하는 필드-->
+            <label for="appt">Select a time:</label>
+            <input type="time" id="appt" name="appt">
+        </div>
+        <div>
+            <!--전화번호 입력을 위한 필드로, pattern 속성을 사용해 유효성 검사를 수행-->
+            <label for="phone">Enter your phone number:</label>
+            <input type="tel" id="phone" name="phone" pattern="[+]{1}[0-9]{11,14}">
+        </div>
+        <div>
+            <!--텍스트 URL 입력 필드로, 자동 유효성 검사를 수행-->
+            <label for="homepage">Add your homepage:</label>
+            <input type="url" id="homepage" name="homepage">
+        </div>
+        <div>
+            <!--연도와 주를 입력하는 필드-->
+            <label for="week">Select a week:</label>
+            <input type="week" id="week" name="week">
+        </div>
+        <div>
+            <!--월과 연도를 입력하는 필드-->
+            <label for="bdaymonth">Birthday (month and year):</label>
+            <input type="month" id="bdaymonth" name="bdaymonth" min="1930-01" value="2000-01">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Little Lemon Restaurant. All rights reserved.</p>
+    </footer>
+</body>
+</html>
