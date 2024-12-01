@@ -1,0 +1,8 @@
+/* styles.css */
+.bag {
+    border: 1px solid gray;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #f9f9f9;
+    color: black; /* 텍스트가 배경과 동일하지 않도록 설정 */
+  }
