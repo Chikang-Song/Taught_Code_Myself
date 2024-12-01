@@ -1,15 +1,19 @@
-import logo from './logo.svg';
+import Header from './components/Header';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
 import './App.css';
 
-function Heading() {
-  return <h1>This is an h1 heading</h1>
-}
+// Header로 importing...
+// function Heading() {
+//   return <h1>This is an h1 heading</h1>
+// }
 
 function App() {
   return ( 
-    <div className="App"> 
-      This is the starting code for "Your first component" ungraded lab 
-      <Heading /> 
+    <div>  
+      <Header name='Chikang' color='Purple'/> 
+      <Main greet='안녕하세요'/>
+      <Sidebar greet='Hi'/>
     </div> 
   ); 
 } 
