@@ -1,0 +1,76 @@
+[MUSIC] Together, we are going to take a set of
+sample data about eyeglass preferences and analyze it in Excel. We will then use our analysis to
+build our marketing proposal in Word. Finally, we will share and
+enhance our findings in PowerPoint. Copilot will be critical to our
+success at every step in this journey. You need to download the relevant files
+found in the reading before continuing the video. Pause the video if you have not yet
+done so. Are you ready to begin? Let's first start by launching Excel and
+opening the downloaded document. I've clicked on blank document and I've headed over to the file menu
+to open files from this device. I'm going to open the eyeglass
+market research file. We want to work with the column
+satisfaction level as a number so that we can write a formula
+that filters the data. First, we will open copilot and request
+that it convert the text into a number. Here is the prompt, computer column satisfaction from
+satisfaction level as follows. Highly satisfied is a five. Satisfied is a four. Moderately satisfied is a three. Copilot has created a formula for us. We can request Copilot
+to explain the formula. We can see the exact formula and
+we can gain insights from this. After I review it, I'm going to
+go ahead and insert the column. Pause the video to add this
+prompt to your workbook. How many of you have experienced
+a worksheet with textual information that is difficult to use? As you have seen, Copilot can help
+you write these complicated formulas. Let's try to gain some insights
+into the eyeglass attributes that are considered highly satisfied. We're going to go ahead and
+sort and filter based on items with the recommendation as a numerical
+value greater than or equal to four. Here's our prompt. Sort and filter where satisfaction
+level is greater than or equal to four. You can see fours and fives in the table. The preferred styles, class and
+modern leave these categories. Pause the video to add this
+prompt to your workbook. If you see only fours and fives in
+your table, then you were successful. I'm going to go ahead and
+clear all filters. That is good hygiene so that we can see what insights
+we might uncover in the data. I'm going to ask Copilot for assistance. Here is the prompt, clear all filters, pause the video now to clear
+the filters in your workbook. Let's analyze our data to see if
+there's any correlation between preferred styles and age. The prompt I'm using to do this is
+analyze preferred style by average age. This has already been
+done in your workbook. Take a look at the tab titled average age. Did you observe that the average age for
+classic is 50, while eclectic style trends
+several decades younger? We've got one more important question
+that can utilize the same technique. We'd like to see if there's a correlation
+between between important factors in satisfaction. This could give us some insights into
+why people buy the eyeglasses they do. Here's the prompt. Analyze satisfaction by important
+factors before I submit this prompt, try it out for yourself. Once again,
+this looks like a fascinating result. What we find here is technology seems to
+have the highest recommendation level, followed by vision change. Were you able to reproduce these results? We've inserted our two significant
+findings into a document called eyeglass findings. Please upload that document. I've clicked on summarize this talk and
+gotten a summary. Please try that yourself. Once you have reviewed or iterated on it,
+copy it into the document. As you can see,
+I've copied the two main ideas. Now that we understand that technology
+is the most important factor, I'd like to go ahead and
+ask Copilot to help me research that. You go ahead and you could ask
+Copilot some questions as well. My prompt was one of the five
+most important technologies for consumers in eyeglasses. The results are very relevant. I'm going to copy that and take that right
+into my Word doc, you can do that as well. Copilot Pro provides a button
+that makes it easy to do that right beneath the results. I've gone ahead and
+copied that right into my Word doc. Copilot can help us
+visualize this information. I've clicked on Copilot inline and
+asked to visualize as a table. You can pause the video and
+try that as well. Let's ask Copilot to help us
+frame our recommendation. Here's the detailed prompt I
+use based on the section titled Consumer Technology and
+Eyeglasses in this document. Write a recommendation that we investigate
+the availability of these technologies and their benefits. Follow that by naming the benefit and
+framing the question to the consumer. Here's an example, 3D printed frames. Would you enjoy frames that fit you so comfortably that you think they
+were made exactly for your face? The answer smart glasses. Would you like to access the Internet,
+take photos, and control your smart devices
+with just your glasses? I'll keep it. Yeah, you pause the video and
+construct your own prompt. Be sure to review your output. Congratulations. We've completed our Word document and
+our research. We have now headed over to PowerPoint, where we prompt Copilot to create
+a presentation about the five most innovative technologies for
+consumers and eyeglasses today. Pause the video and
+create the presentation. Copilot summarized information from
+its LLM about these innovative technologies that prepare visually
+compelling and creative presentation. The topics include
+antireflective coatings, digital progressives, smart glasses. How does your presentation
+compare to the one in this video? Now, let's take a look back at
+all of our exercises today. We use Copilot and Excel to find
+important insights in our data. In our Word document,
+we use Copilot to further our research and summarize our recommendation. Copilot and PowerPoint pull together a targeted
+overview of my eyeglass technology. Well done. [MUSIC]

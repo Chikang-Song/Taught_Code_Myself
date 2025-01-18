@@ -1,0 +1,51 @@
+Hello everyone, and welcome to the demo on
+the Cloud IDE (or Integrated Development Environment) provided by the IBM Skills Network team. Cloud IDE is a programing environment for
+learning, which you can use for writing, running, debugging, and executing code directly in
+a browser, without the need to install or configure any software or tools on your personal
+device. In this demo, you will learn to: Navigate the different components of the Cloud
+IDE Install the Python packages or libraries Write code Execute code When you open the Cloud IDE, two main panes
+will be displayed. The left pane is referred to as the instructional
+pane. It displays the instructions that you need
+to follow to finish the project. The pane on the right displays a programming
+interface, where you can write and execute your code. Please note that the right pane is similar
+to the VS code interface, which is a popular IDE for managing code. You can resize the instructional and code
+panes. For example, you can reduce the size of the
+instructional pane by dragging it from its margin towards the left. Or, you can increase the size by dragging
+the instructional pane towards the right. You also have the option to modify the fonts
+and font size based on your preference. If there are multiple pages in the instructional
+pane, you will see the Next and Previous buttons. These buttons enable you to navigate between
+the pages. You can also preview an instructional page. Notice the Table of contents button on the
+top left corner of the instructional pane. Use this button to navigate through different
+sections of the instructions. Next, let’s look at an AI-enabled chatbot
+available on the Cloud IDE. The IBM Skills Network team provides you with
+a AI enabled Teaching Assistant chatbot called Tai, which provides you with help using the
+lab environment for coding assignments. The icon for Tai is available on the left
+side of the instructional pane. To access the chatbot, simply click the icon. Let’s try asking a question, like Please
+provide me with simple Python code. As you can see, the code is displayed. You can either copy or execute the code. Next, let’s look at the programming interface
+of the IDE. The programming interface has several components. However, the two tabs that you will use frequently
+include the Editor tab, where you write the code, and the Terminal tab, where you execute
+the code. In the programming pane there is also a Skills
+Network Toolbox, which enables you to work with various database management environments,
+big data tools, cloud tools, embedded AI libraries, and launch applications that you build. Before you begin writing the code, you will
+need to install the required Python libraries or packages in this cloud-based environment. You will need to perform this task in the
+Terminal tab. To open a new Terminal, click the Terminal
+menu. Then, click New Terminal. For the purpose of the demo, let’s copy
+the code block from the instruction pane and paste it on the terminal. Then, press Enter to execute the command. Notice that the numpy library has been successfully
+installed. You can now import this library into your
+code. Let’s now create a basic Python program. In the programming pane, click File. Then, select New File. The new file opens in the Editor tab. It is a best practice to save the file before
+starting to add code. Since we are writing a Python code, save the
+file with a .py extension. From the File menu, click Save (or Ctrl+S). When prompted, provide the file name. For this example, let’s save the file as
+Hello.py. The next step is to add the code. You can manually type the code in the Editor
+tab or copy and paste the code from the instruction pane, if available, to your file. For the purposes of this demo, let’s copy
+the code from the instruction pane and paste it in the file. Don’t forget to save the file! It’s time to execute the code. Let’s navigate back to the Terminal tab. Make sure that you are in the folder where
+the program file is stored. You can execute the file by typing python3
+followed by the file name. For this example, that’s python3 Hello.py. Notice that the output is displayed without
+any errors. This brings us to the end of the demonstration
+on the Cloud IDE. To summarize: Cloud IDE is a programming environment similar
+to VS Code [provided by IBM Skills Network for the purposes of learning and developing
+hands-on skills] The Cloud IDE has 2 panes, instructional and
+programming. You can use the Table of contents button on
+the instructional pane to navigate between instructional pages. The programming pane provides the Editor tab
+to write code and Terminal tab to execute code. You need to install the required libraries
+through the Terminal. At any point during the labs, you can copy
+the code blocks from the instruction pane and paste it in the Editor or Terminal tabs.

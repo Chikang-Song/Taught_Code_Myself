@@ -1,0 +1,45 @@
+Welcome to this course
+where you accomplish a real world hands on data
+engineering Python project. Data engineers are
+on the front line of data strategy and planning
+for any organization. Data engineering tasks including extraction or data transformation
+to a required format and loading it for
+further usage are the fundamental
+operations on which the entire data science
+industry depends. This is one of the
+main reasons that data engineering positions
+are some of the most sought after jobs
+in the world today. In this project-based course, you will assume the role of a professional data engineer to train you in dealing
+with real-world data. You will use Python to
+retrieve the required data directly from a website using
+web scraping techniques, transform the data per
+the requirements and save it as a local file
+and a table in a database. You will also run
+basic queries on a data set table using Python. This course is intended for anyone with basic
+programming knowledge, an elementary
+understanding of Python, and interested in using it for data engineering
+applications. Module 1 introduces
+you to extract, transform, and load
+operations basics. You will also extract
+required information from web pages using web scraping
+techniques and API's. You will also access
+databases using Python and save the processed information
+as a table in a database. In Module 2, you will apply the
+knowledge from the previous module to develop a functional ETL pipeline
+for acquiring and processing data from a website available in the public domain. With one practice and
+one graded project, you will demonstrate your
+proficiency in creating ETL pipelines for data
+from different web links. You will submit
+your project work for grading by your peers. You will create modules,
+run unit tests, and package applications using Python in the optional Module 3. You will also learn the
+ideal coding practices for Python and run
+static code analysis. After completing this course, you'll be able to extract data from multiple sources
+by reading data files, web scraping, and using API's, transform data as required, load the process data into a
+desired format or database. Create a full ETL pipeline for accessing and processing data derived from public websites. Create Python modules, run unit tests, and
+package applications. There's a lot to cover here. To get the most
+from this course, make sure to view every video, check your learning
+with each quiz, and complete all
+the hands on labs. If you have any trouble with
+any of the course material, please don't hesitate to contact us in the
+discussion forum. Thank you for being part
+of our course and welcome.

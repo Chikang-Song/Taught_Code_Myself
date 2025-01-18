@@ -1,0 +1,63 @@
+Ready to unleash the power of Copilot. In the following video, you will
+work with me through a step by step demonstration that shows you how to set
+up Copilot for personal and team use. We'll be covering licenses and customizations showing you how
+to step up your productivity. By the end of this lesson,
+which is divided into two videos, you will be able to set up Copilot for
+both individual and team use. We will highlight
+the prerequisites of licensing and how to access Copilot within Office
+365 applications for word and PowerPoint when demonstrating
+your setup for individual use. You will learn to configure Copilot for
+team productivity and recognize data security considerations
+while safeguarding sensitive information. We'll learn how to configure Copilot to
+provide context by adding reference files in word to understand and apply this
+technique to optimize Copilot suggestions. You will discover how to set up
+templates in PowerPoint to guide Copilot in generating content aligned with
+your team or brand guidelines. Welcome to our Copilot setup
+demonstration, Rob Rubin here together we'll unlock the full potential of this
+generative AI assistant, whether for individual or team use, and I will
+guide you through this step by step. Let's get started with setting up Copilot. You've installed Copilot Pro,
+let's start to explore it. Here we have three things we can
+get creative, balanced, or precise. When we choose the creative option, we actually have the option of GPT4 or
+GPT4 turbo. Now I'm just going to go ahead and
+ask Copilot to go out to the web and tell me about technologies in eyeglasses. One thing I can do with this now is I
+can either copy it or I can export it. I'll export it to a word document,
+and here we see it's been exported with all of
+the sources associated with it. Now let's go back to Copilot and
+we've saved the document, let's see what we can do. One of the things we can do here
+is we can actually check and open open a document
+that we've created and we can ask it to summarize for us. And here you can see Copilot's
+ability to use a file. This is very significant and one thing that certainly differentiates
+Copilot Pro from Copilot. Copilot can also help troubleshoot
+your Microsoft Office challenges or
+any other challenges you might face here. I don't know what challenges you might
+face when you have installed word, but let's see if Copilot can help it. Here are two ways that Copilot
+has instructed us in order to diagnose challenges, and
+it's done it very accurately. The first is you might have
+to go to file account and check your update options and
+say update now. The second is you might have to update
+your license, well done, Copilot. Let's go ahead and use Copilot in Word, now here you can see I've
+opened a blank document. There are actually two ways to access
+Copilot in word, one is through the blue icon on the top right, and
+the other is actually to use it in line. So let's go ahead, click on that and draft Copilot, let's ask Copilot to give us an overview
+of eyeglass technology. Here we have created a rather
+large document, and so we know that Copilot is successful. I'm just going to move
+over to Copilot Pro and let's see what Copilot Pro can do for
+us here. It can summarize this document for us. As we'll see later,
+we can even ask questions about this document,
+we now have Copilot in word. Now let's begin to use
+Copilot in PowerPoint. We find Copilot up on
+the right once again and let's try and just create a slide. We're going to ask it to add
+a slide about Benjamin Franklin and the creation of spectacles. Notice how Copilot has
+gone out to the web and found information about
+Benjamin Franklin and created a slide automatically for
+us, Swee. We've now opened Excel and
+we're ready to try Copilot here, we find the icon in the upper right and we notice the first thing is
+that Copilot is in preview. This is Microsoft's way of letting
+us know that the results may not be as accurate as we like, and
+they are still developing this software. We can immediately try
+an example in Copilot, and we can even ask it to saw suggestions for
+formula columns right away. And so here's an engagement rate
+of each campaign, and go ahead and insert the column. We'll learn much more
+about this as we go on. That does it for understanding how to
+set up your family subscription or your personal subscription with Copilot. Well done, everybody, together let's unlock a new level
+of productivity and collaboration. [MUSIC]

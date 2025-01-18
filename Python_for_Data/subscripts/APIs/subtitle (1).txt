@@ -1,0 +1,59 @@
+In this video we will discuss Application
+Program Interfaces (APIs for short). Specifically, we will discuss
+what an API is, API libraries, and REST APIs, including
+Request and Response and an example with PyCoinGecko.
+An API lets two pieces of software talk to each other.
+For example, you have your program, you have some data, you have
+other software components. You use the API to communicate with
+other software via inputs and outputs. Just like a function, you don’t have to know how
+the API works, just its inputs and outputs. Pandas is actually a set of software components,
+much of which are not even written in Python. You have some data.
+You have a set of software components. We use the pandas API to process the data by
+communicating with the other software components. Let’s clean up the diagram.
+When you create a dictionary, and then create a pandas object with the DataFrame
+constructor, in API lingo, this is an “instance.” The data in the dictionary is
+passed along to the pandas API. You then use the dataframe
+to communicate with the API. When you call the method head,
+the dataframe communicates with the API displaying the first few rows of the dataframe.
+When you call the method mean the API will calculate the
+mean and return the values. REST APIs are another popular type of API;
+they allow you to communicate through the internet allowing you to take advantage of
+resources like storage, access more data, artificial intelligence algorithms, and much
+more. The RE stands for Representational, the S for State,
+and T for Transfer. In REST APIs your program is called the client.
+The API communicates with a web service you call through the internet.
+There is a set of rules regarding communication, input or request, and output or response.
+Here are some common terms. You or your code can be thought of as a client.
+The web service is referred to as a resource. The client finds the service via an endpoint.
+We will review this more in the next section. The client sends requests to the
+resource and the response to the client. HTTP methods are a way of
+transmitting data over the internet. We tell the REST APIs what to do
+by sending a request. The request is usually communicated via an HTTP message.
+The HTTP message usually contains a JSON file. This contains instructions for what operation
+we would like the service to perform. This operation is transmitted to
+the web service via the internet. The service performs the operation.
+In a similar manner, the web service returns a response via an HTTP message,
+where the information is usually returned via a JSON file. This information
+is transmitted back to the client. Cryptocurrency data is excellent to be used in
+an API because it is constantly updated and it is vital to cryptocurrency trading.
+We will use the PyCoinGecko Python client/wrapper for the CoinGecko API,
+updated every minute by CoinGecko. We use the wrapper/client because it is easy to
+use so you can focus on the task of collecting data, we will also introduce pandas time series
+functions for dealing with time series data. Using PyCoinGecko to collect data is
+simple. All we need is to install and import the library, then create a client object,
+and finally use a function to request our data. In this function we are getting data on
+bitcoin, in US dollars, for the past 30 days. In this case our response is a JSON
+expressed as a Python dictionary of nested lists including price, market cap, and total volumes,
+which contain the UNIX timestamp and the price at that time. We are only interested in price so
+that is what we will select using the key price. To make things simple, we can convert
+our nested list to a DataFrame, with the columns timestamp and price
+it's difficult to understand the column timestamp. We will convert it to a more readable
+format using the pandas function to_datetime. Using the to_datetime function, we create
+readable time data, the input is the timestamp column, unit of time is set to milliseconds.
+We append the output to the new column, date. Now we want to create a candlestick plot.
+To get the data for the daily candlesticks we will group by the date
+to find the minimum, maximum, first, and last price of each day.
+Finally we will use plotly to create the candlestick chart
+and plot it. Now we can view the candlestick chart
+by opening the HTML file and clicking Trust HTML in the top left of the tab.
+It should look something like this.

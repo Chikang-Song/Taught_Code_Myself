@@ -1,0 +1,59 @@
+Ever found yourself
+in a sea of data, wondering if there's
+a faster path to make sense of it all? What if I told you there's
+a tool that helps you navigate through the data
+and analyze it as well? Let's see how
+Microsoft 365 Copilot can be your expert assistant. Hello again. Rob here. It's time to embark
+on another journey, this time into the depths
+of data and decisions. We're going to explore
+how Copilot transforms data analysis into
+a smooth sail. We'll follow Alex and
+Sarah as they harness the power of Copilot across
+Excel, Word, and PowerPoint. By the end of this video, you'll learn how to
+navigate through complex structured
+data with Copilot, manipulate the
+table, get insight, and even have Copilot
+help you write and explain more
+effective formulas. We'll use Copilot to increase your productivity and focus, turning data analysis from a task into a
+competitive advantage. Imagine Alex, a 32-year-old data analyst, swamped with data, needing to make quick
+informed decisions to show her colleague a dashboard
+that she can play with. With Copilot, Alex provides natural language
+prompts asking for a digest of proposed
+marketing spending. She also asked questions
+about the data. Alex asked Copilot to build a new formula and a
+column for the data. Copilot writes the formula
+and explains it to her. Alex prompts Copilot to build a pie chart to
+understand the data. Alex knows her colleague is very capable and may want to
+play with the data herself. With Copilot and
+without much effort, Alex builds a pivot
+table enabling her colleague to further
+analyze the data if need be. Thanks to Copilot, Alex not only stays
+afloat but also charts a course for success,
+armed with insights. With the help of Copilot, Alex is now able to analyze the data and summarize
+the highlights. Let's meet Sarah, the
+marketing manager of Alex's project. Sarah needs to make some
+strategic decisions about the next quarter. She has just received Alex's
+analysis and so she turns to Copilot asking for
+a comparison of her company's performance
+against competitors. Using its generative AI, Copilot is the companion
+to Sarah as she generates a detailed set of decisions grounded in Sarah's
+specific objectives. With assistance from Copilot, Sarah builds a document
+which summarizes the data, the analysis, and
+her recommendations. Sarah uses Copilot to generate a presentation with
+her recommendations. She asked Copilot to add an important
+observation to the deck. Copilot helps her write a summary email and she is ready for the
+decision-making forum. Sarah's strategy goes from being a shot in the dark
+to a guided missile, thanks to her insights and the assistance of her
+assistant, Copilot. We've seen how Copilot can be your compass in the data ocean, helping you make sense of
+vast information and making your strategic decisions
+clear and articulate. Alex and Sarah's stories
+are just the beginning. With Copilot, you're equipped to turn data challenges
+into opportunities. Do you feel ready
+to self-navigate through the data
+with confidence? Let Copilot be your
+guide and let's turn those data-driven decisions
+from daunting to doable. Go ahead and use Copilot
+in either Word, Excel, or PowerPoint to help you
+generate some insights using the downloaded
+datasets we've used above in the scenarios
+with Alex and Sarah.

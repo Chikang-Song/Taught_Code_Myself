@@ -1,0 +1,44 @@
+[MUSIC] We are now going to use Copilot in Excel. We find Copilot at its familiar spot
+on the ribbon at the far right, colored in Excel green. Nice job, graphic designers. As we see,
+Copilot in Excel is in preview mode. The first thing you'll notice is that
+Copilot only works with Excel tables. Copilot provides an example,
+and we'll go ahead and use it. The table describes a set
+of marketing campaigns and shows the budget and the revenue. It also has data about the number of
+users targeted in the campaign and the actual engaged users. We want Copilot to be
+our expert Excel user. We want to see the most revenue generated. An experienced user would
+know to click on the small icon in the column
+header in order to sort. We will prompt Copilot to sort the table
+by revenue from largest to smallest. As we can see, the prompt was not
+quite as fast as clicking the icon. But it certainly allowed us to
+keep our train of thought and to communicate naturally. And here we have it. Can Copilot tell us about the data? Let's prompt Copilot to highlight
+the campaign with the largest revenue. We can see Copilot applied
+a green fill color and a black font to the top item
+in the column, Revenue. Let's ask Copilot to be
+a knowledge assistant. ROI is a standard calculation
+return on investment. Let's ask Copilot to add
+a column with the ROI. We can look at the formula and
+the explanation. We now understand why Copilot
+requires an Excel table. An Excel table makes it unambiguous
+to refer to the columns by the name in the table header. Copilot uses the budget and
+revenue in its ROI formula. Let's finish up our initial
+exploration by asking Copilot to produce a pie chart
+of revenue by campaign name. We've added the pie chart to a new sheet. Our visual cortex discerns that 50% of the revenue came from three campaigns. Thanks to Copilot,
+we have a new way of working. Copilot has served as
+an expert user of Excel, performing simple tasks such as sorting,
+creating a pie chart. It has also been a knowledge assistant,
+writing formulas and explaining them, and
+even using a standard term such as ROI and applying the column names to create
+the formula in our spreadsheet. We've worked in a new way with Copilot,
+using our natural language to communicate. In conclusion, this video showcases the
+unique twofold function of Copilot 365, making it both a reliable assistant for
+managing everyday tasks and a creative partner that brings new
+ideas and efficiency to your work. Whether you're drafting documents in Word,
+crunching numbers in Excel, designing presentations in PowerPoint,
+or managing your emails in Outlook, Copilot 365 is designed to
+make these tasks smoother and inspire you to bring
+creativity into your projects. It's about working smarter,
+adjusting to a new way of communicating with your
+O 365 applications, and allowing you more time to
+focus on what really matters. With Copilot 365, you get the support you
+need to enhance your productivity and unleash your creative potential across
+all your favorite Microsoft Office tools. [MUSIC]

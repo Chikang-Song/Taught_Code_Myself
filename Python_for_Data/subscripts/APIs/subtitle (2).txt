@@ -1,0 +1,30 @@
+In this video, we will discuss the HTTP protocol. Specifically, we will discuss: Uniform Resource Locator: URL Request and Response We touched on REST APIs in the last section. The HTTP protocol can be thought of as a general
+protocol of transferring information through the web. This includes many types of REST APIs. Recall
+that REST APIs function by sending a request, and the request is communicated via HTTP message. The HTTP message usually contains a JSON file. When you, the client, use a web page your
+browser sends an HTTP request to the server where the page is hosted. The server
+tries to find the desired resource by default "index.html". If your request is successful, the server will send the object to the client
+in an HTTP response; this includes information like the type of the resource, the length
+of the resource, and other information. The table under the Web server represents
+a list of resources stored in the web server. In this case, an HTML file, png image,
+and txt file. When the request is made for the information,
+the web servers sends the the requested information, that is, one of the files. A uniform resource locator (URL) is the most
+popular way to find resources on the web. We can break the URL into three parts. First we have the scheme: this is the protocol,
+and for this lab it will always be http:// The internet address or Base URL: this will be used to find
+the location; some examples include www.ibm.com and www.gitlab.com And finaly, the route: this is the location
+on the web server, for example: /images/IDSNlogo.png Let's review the request and Response process. The following is an example of the request
+message for the get request method. There are other HTTP methods we can use. In the start line we have the GET method.
+This is an HTTP method. In this case, it’s requesting the file index.html The Request header passes additional information
+with an HTTP request. In the GET method the Request header is empty. Some Requests have a body; we will have an
+example of a request body later. The following table represents the response. The response start line contains the version
+number followed by a descriptive phrase. In this case, HTTP/1.0 a status code (200)
+meaning success, and the descriptive phrase, OK. We have more on status codes later. The response header contains information. Finally, we have the response body containing
+the requested file, in this case an HTML document. Lets look at other status codes. Some status code examples are shown in the
+table below. The prefix indicates the class; for example, the 100s are informational responses;
+100 indicates that everything is OK so far. The 200s are Successful responses: For example,
+200 The request has succeeded. Anything in the 400s is bad news. 401 means
+the request is unauthorized. 500’s stands for server errors, like 501
+for not Implemented. When an HTTP request is made,
+an HTTP method is sent. This tells the server what action to perform. A list of several HTTP methods
+is shown here. In the next video, we will use Python to apply
+the GET method that retrieves data from the server and the post method that sends data
+to the server.

@@ -1,0 +1,9 @@
+2025-01-17 06:45:11:Initiate project.
+2025-01-17 06:45:11:Initiate  data Extract from url
+2025-01-17 06:45:12:Completed data Extract
+2025-01-17 06:45:12:Initiate transform dataframe
+2025-01-17 06:45:12:Completed transform dataframe
+2025-01-17 06:45:12:Complete load the csv: Largest_banks_data.csv
+2025-01-17 06:45:12:Database initialize
+2025-01-17 06:45:12:Datafarme was loaded to Largest_banks in Banks.db
+2025-01-17 06:45:12:Completed Database upload

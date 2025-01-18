@@ -1,0 +1,71 @@
+[MUSIC] Let's have an open and frank discussion on
+a topic that goes to the very foundation of our interaction with technology,
+security, and privacy in the digital age. Do you know how to navigate through
+cutting edge technology without compromising your own or
+your organization's sensitive information? By the end of this video, you will be
+able to define limitations of copilot in handling sensitive information and explain
+the importance of maintaining privacy and avoiding sensitive
+information in your prompts. Rob Rubin here, and welcome back. Let's talk about the nuances
+of Copilot's limitations and the critical importance of data privacy. The concerns around
+privacy are not unfounded. From unintentional sharing of
+sensitive company data to accessing proprietary information,
+the stakes are high. As you know, Copilot uses Microsoft Graph. This graph includes emails,
+calendar events, and documents. Some of which may belong to you and some of which may belong to
+the organization you work for. It's crucial to be aware of what we
+input into Copilot, reflecting on both our access rights and the sensitivity
+of the information we're handling. Now, let's talk about some concerns. The first concern you might have
+is how secure your data may be. For example, will my company's
+data leak out of my company? There have been reported cases in
+public uses of an LLM where prompts are used in improving the LLM and
+the consequence is a data leak. Rest assured, Microsoft has a built in security wall
+around your company's prompts and data. And just as your SharePoint is secured, your data used by Copilot will also be
+protected by your SharePoint security. This is because Copilot is governed by
+the security settings, permissions, and policies already in place on
+your SharePoint environment. A second concern might be whether
+Copilot will merge information from different sources. For example, might it use data obtained
+from two different email threads in your inbox sent from two different companies? Here is where the formulation and
+anatomy of your prompt are very important. You need to be very specific about your
+reference to sources of information to avoid blending similar information. Remember, Copilot can mix and summarize
+the information from various sources. But it all depends on your prompt
+engineering and refinement. How you design your prompts will ensure
+that the correct source of reference is used to generate the response. You want to both prevent
+this from happening and carefully review
+the response to your prompt. Then, there is a concern about
+proprietary information, for example, that which is protected by laws like
+the information on personnel filed by HR. What if copilot provides you with
+proprietary HR information that perhaps you should not have access to? Well, that all depends on what
+access you have to that data. Microsoft certainly observes
+access rights and privileges. If by mistake you gain access to
+such information, then be wise and don't share information you have prompted
+for but do not have permission to own. What does Microsoft do
+to protect your data? Actually, Microsoft uses its enterprise
+capabilities to protect your data. Microsoft has a commitment to security,
+to compliance, to privacy, to identity,
+and to responsible AI. While we have the Microsoft
+enterprise technology for data security and protection. It is important to remember
+that we should still have in mind the organization's
+responsibility to protect the business. There are a few things an organization
+must consider putting in place. The organization can educate its employees
+on the importance of data security and privacy and the organization's policies
+which are in place to protect these. The organization might also consider
+training employees on how to use copilot safely and securely with
+the necessary access controls in place. Copilot usage can result in exposure, especially when it comes to
+data security and privacy. And we have to acknowledge these to ensure
+our organization's data protection. While Microsoft has robust protections
+in place to prevent data leakage, the responsibility also lies with us,
+the users, to use Copilot wisely. Remember the otis is on our organization
+to implement practices like educating team members. Enforcing access controls,
+setting data retention policies, as well as conducting regular audits
+to strengthen these measures. What happens if you receive
+responses that are not up to date? Keep in mind that the copilot
+LLM includes information that's only current up to a certain date. It may not have the latest data. You can certainly use Bing or
+other search engines to fill in the gaps. Now that you have a clearer understanding
+of the importance of data protection. And how to recognize
+Copilot's limitations, remember that security is
+a shared responsibility. By being mindful of
+the information we share and understanding the capabilities
+of the tools at our disposal. We can navigate this digital
+landscape safely and securely. Reflect on how you've been using Copilot. Start incorporating these considerations
+into your interactions with copilot, and share your learnings
+within your organization. Together, we can ensure a secure and
+responsible use of generative AI. [MUSIC]

@@ -1,0 +1,41 @@
+In a world inundated with
+data and deadlines?, what if you had a secret weapon that can improve
+your productivity, allow you to
+communicate naturally, and give you more focus time? Hi, I'm Rob Rubin and I'm
+thrilled to welcome you to the course Introduction
+to Office 365 Copilot. With a history of pushing the boundaries in AI and
+product development, I've witnessed firsthand
+how technology can transform the way
+we work and learn. I'm here to guide you through
+harnessing the power of Microsoft 365 Copilot in
+your professional journey. I've worked extensively
+with gen AI and co pilot in both start
+ups and public companies. I'm proud to say that
+my work and published research with Open
+Edx and Project Los, a personalized AI learning
+system for online learning, has had an impact on many
+learners around the world. When you have
+completed this course, you'll not only increase
+your productivity, but fundamentally
+change the way you work within Microsoft's
+applications. You'll learn to leverage generative AI to
+optimize your workflow, to make everyday tasks more
+efficient and enjoyable, as well as increase
+your focus time. Whether you're
+aiming to streamline tasks, transform
+data management, or optimize business processes, this course can provide
+you with tools you find valuable, possibly
+even indispensable. We will unlock
+Microsoft 365 Copilot and improve your productivity. By the end of this course, you will be able to leverage Microsoft 365 Copilot
+to streamline tasks, transform data
+management, and optimize business processes in both personal and
+professional spheres. To be successful in this course, you must have moderate
+background knowledge of the use of the different
+applications within the Office 365 suite and occasionally have made
+use of ChatGPT or Bing. Let's kick off this course and start exploring the
+many features of Microsoft 365
+Copilot where I will demonstrate capabilities
+through real world examples,
+engaging exercises, and direct application across the different Microsoft
+Office applications, Excel, PowerPoint,
+Word, and Outlook.

@@ -1,0 +1,45 @@
+[MUSIC] Ever wonder what makes Copilot
+in Microsoft 365 so capable? I'm going to explain
+generative AI to you so you understand how it uses your prompts,
+your work context, and how you should be the guide to correcting
+Copilot's responses and improving copilot. By the end of this video,
+you will understand the role of large language models, LLMs,
+in powering Copilot's responses. You'll recognize how
+Microsoft Graph enhances Copilot's understanding of your
+personal and organizational context. Rob Rubin here, guiding you through
+the maze of technology behind Copilot. Imagine Copilot as more than
+just a chat interface, think of it as a bridge connecting you with
+the vast AI capabilities of Microsoft 365. Let's first take a look at
+the architecture behind Copilot. At the heart of Copilot lies
+a large language model, or LLM. This AI algorithm is not just any tool,
+it's a powerhouse of knowledge trained on enormous
+datasets to understand and generate human-like responses,
+but it's not infallible. Some computer scientists have referred
+to the LLM as a stochastic parrot. They call the LLM a stochastic
+parrot because it can replicate language without actually
+understanding its meaning. If you've heard about hallucination or
+received wrong responses, the stochastic parrot analogy may hold. Computer scientists are responding
+to the stochastic parrot challenge with a skill mix test. The skill mix test is an evaluation
+method for AI models applying multiple skills not seen during training,
+to demonstrate understanding. It is utilized to challenge AI models
+with tasks that require varied skill combinations to go beyond
+the replication of training data. The test provides insights into AI models
+capabilities beyond simple mimicry, highlighting their proficiency in
+synthesizing diverse knowledge. Therefore, the responses you see from
+Copilot use much larger models like GPT-4, which have been validated
+by the skill mix test. That is because without proper context, even the most powerful LLM
+can trip over its own feet. Now that you know a little more about
+the large language model powering Copilot, let's take a look at the Microsoft Graph. It acts as the connective
+tissue between your data and Copilot, ensuring that every
+prompt you feed is grounded in the specific context of your work or
+organization. This grounding process is what turns
+generic responses into tailored advice, making Copilot's assistance precise and
+relevant. We've journeyed through
+the technological landscape that makes Copilot not just a tool, but
+a companion in your daily tasks, with LLMs providing the brainpower and
+Microsoft Graph ensuring the context. Copilot stands behind Microsoft's
+commitment to innovation and personal productivity. Now, let's start experimenting
+with your prompts in Copilot. See how this technology not
+only responds but adapts, making your workday smoother and
+more efficient. And observe how Copilot refines its
+responses when you refine your prompts. [MUSIC]

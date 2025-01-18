@@ -1,0 +1,87 @@
+We need to analyze
+the new dataset. Research did a
+great job creating a small summary
+spreadsheet for us. Copilot can only work
+with an Excel table. It offers to convert
+the table for us. That was fast. Let's take Copilot up on its offer
+to show us data insights, even though I know
+which direction, I think I need to
+ask those questions. Copilot has shown
+us age group by preferred style and offers
+to add it to a new chart. It's a PivotTable, which can be very useful. It is not something I
+would usually attempt. I'm going to add
+it to a new chart, but let's go back and let's see how I would
+do this from scratch. I really want to start by
+looking at the age group and the region not satisfied
+with their glasses. Let's look at this query. We asked to find out those not satisfied with
+their glasses. Really, what we were asking was who are
+moderately satisfied, not satisfied, not
+very satisfied, not highly satisfied
+with the sufficed. Copilot did not figure that
+for us. We'll try again. We are now explicitly
+looking for those moderately satisfied
+with their glasses. It shows us that the regions that are moderately satisfied
+are Asia and Europe, and we have a
+distribution of that. We will add it to a new sheet. We see once again that
+this is a PivotTable. Let's start to use
+this PivotTable to help us better understand
+what we're looking for. Up on top, it's
+moderately satisfied, and here's an age
+group and a region. The next thing we really want to know is the purchase frequency. We'll add that to
+the filter column. Let's start to filter on that. What we're really
+looking for are once a year or once
+every two years. Let's see what we find. Our age group has
+started to converge. Let's try to find out what the preferred style for this is. We have converged on
+a preferred style. Let's see if we have account
+of that just to be sure, and we'll summarize that. Well, that is excellent. We see that there are in total, there's Asia, Europe in
+different age groups. Excellent. Our brand stands
+for comfort and style. We will add a filter for comfort and style here. Let's
+see what we have. We see. We have a couple. This is quite conclusive. It shows us that in
+the 20-30 age group, and in the 60+ age group, there's a shared interest
+in sport comfort, and as well as the eclectic, and these are folks that are to date
+moderately satisfied. Excellent. We've
+completed our analysis. I want to be sure
+that I understand the age group and the region that is moderately satisfied
+with their glasses. I've asked Copilot to
+help me identify them, and Copilot has
+shown me that there are three age groups
+who are moderately satisfied and responded with a satisfaction level of
+moderately satisfied. Now, the next thing
+I asked Copilot is, what is the preferred style
+for moderately satisfied, and I found two styles:
+eclectic and sport comfort. What I next need
+to understand is the purchase frequency
+for eclectic, and the purchase frequency
+for sport comfort. We see the purchase frequency for eclectic is once a year, and for sport comfort is once a year or
+once every two years. Now, once I have these, I want to know what
+are the regions and the age group for sport
+comfort and eclectic? Here we have that we have these in Asia and
+Europe predominantly. We are now looking for
+price range for both of these for comfort and for
+eclectic in Asia and Europe. We see that although there
+are two price ranges, really the price
+range is 100-180, and we could be consistent
+in the offering. We have completed our analysis. Let's stop and reflect
+on our productivity. First of all, the data was not formatted to be worked
+with as an Excel table. Copilot eliminated
+an impediment, so I could immediately
+begin my work. I asked Copilot to send insights as the
+second thing here. Insight was a summary
+and basic visualization. I would have needed
+to do this work. Copilot assisted me. I found the most value when I applied my own knowledge
+and perspective. I built a series of questions
+to explore the data. Because the data
+was well-designed, my chain of thought was clear and allowed me
+to step through this. I was engaged. I knew that our brand stood
+for comfort and style, and that's exactly where my questions led me
+through Copilot. I could have done it by simply
+selecting and filtering, but Copilot allowed me
+to think logically. Copilot created a
+PivotTable for me. Once again, we're looking at it. This is not something
+I do regularly, even though Pito Salas invented the PivotTable over
+25 years ago to allow an expert analyst to
+replace 15 minutes of complicated data table
+and database functions with just seconds of work. I was able to quickly
+use the PivotTable to validate my result
+to derive a result, and now I have another
+arrow in my quiver.

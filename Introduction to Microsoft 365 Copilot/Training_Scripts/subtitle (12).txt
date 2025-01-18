@@ -1,0 +1,39 @@
+Let's get an interim result to Carlos
+that he could look at quickly. We know he absorbs fastest and
+small chunks in PowerPoint. Let's generate the PowerPoint
+from our file. CoPilot has generated an interesting
+set of recommendations. Here we see it's targeting Asia and
+Europe. Here it's talking about
+sport-comfort styles and the reasons for that. And it's gone into some details and even provided us with data
+insights about the age group and what they might be interested in and
+their price range. We'll need to edit this just to send
+a few over, but I think our job is done. Let's stop and reflect on writing the
+analysis of the data and the presentation. To start, CoPilot helped me summarize and
+format some of the data. I actually found that very helpful. I needed to spend think
+time on the recommendation. I want the insight I generate from
+the data to stand behind this. I don't want CoPilot GenAI to use data
+from its LLM corpus of knowledge. I need it to reference my
+specific company data. I had to be sure to reference
+our well researched information. I don't want unreferenceable
+information in my documents. I've highlighted particular
+areas in the document where our reference material
+became very relevant. Finally, I needed generate
+a PowerPoint in order to inform Carlos of my most
+immediate thinking. PowerPoint was able to use
+a draft of research data insights in order to generate a rather
+large 14 slide presentation. I had to cut that to four. What I particularly appreciated was
+the generation of speaker notes and the images that were
+included in the PowerPoints. That did save me some time. I also appreciated
+the generation of the table and the generation of the final recommendation
+on what they are and some of the taglines. Nicely done. As we conclude this journey through
+the capabilities of CoPilot 365, it's clear that this tool is not just
+about enhancing your productivity, it's about transforming the way we work. Through practical examples, we've seen how CoPilot 365 can
+be woven into our daily tasks. There is a strategic
+advantage to using CoPilot. You can check your work for
+clarity, answer questions, and get information that might otherwise
+take significantly more time. CoPilot offers us the capability
+to increase the clarity, persuasiveness, and
+efficiency of our work. Embracing CoPilot 365 means stepping
+into a future where our documents and presentations are not just completed, but are crafted to stand out
+in the modern workplace. CoPilot 365 is not just about
+enhancing productivity, it's about transforming the way we work.

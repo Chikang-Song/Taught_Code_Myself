@@ -1,0 +1,88 @@
+Welcome back. In this video, I want to guide you
+through a step by step demonstration of how to set up Copilot for your team. Ever wondered how you can get your team's productivity
+kicked up a notch? Well, let me show you how with the right
+tools and set up. A Microsoft 365
+business plan offers you a fundamentally
+different way to interact with Copilot. These business plans, the
+standard business plans, you can see here on
+the Microsoft website, it's likely if you already
+have an enterprise edition, it's been purchased for you. What you can see here
+is that you can add Copilot to your Microsoft plan. Let's go ahead and
+learn more about that. You'll see that
+Copilot for Microsoft 365 is also an
+individual license. It's at $30 per user with
+an annual commitment. Copilot for 365 business
+and Enterprise editions, offer you a much more
+expanded set of capabilities, including the ability to reference files and your
+Microsoft Graph at work. Let's go ahead and see
+what that looks like. Once you've gone
+ahead and purchased Microsoft Copilot with a
+business edition of 365, you'll either want to manage
+the absent services or assign or unassign some
+licenses and reassign them. In the Admin Center, you'll also be able to set up email with a custom domain
+or save time with templates. These are advanced tasks and
+we will not cover them here. We've now launched Copilot. This edition of
+Copilot accompanies the business and enterprise
+editions of Office 365. Right away, you can
+see a difference. There's a work and a web slider, and we're on the web
+slider right now, notice that it says
+it's protected. Your personal and company
+data are protected. As a practical matter, that means that if we ask Copilot some questions or
+give it some information, it will not use our
+information from our company or from our
+queries in training it's LLM. Now we've gone ahead and
+asked our question about innovations in
+eyeglass technology. We see we have some information
+that we can then go ahead and download into an export
+into a Word document. Here you have it. We've saved that as Eyeglass Innovation. Now, I'm going to
+switch over to work. Here's where I can actually
+ask questions about the work about the files that are on my machine or
+what I worked on. I've actually asked it a
+very specific question, what word and PowerPort documents have I created
+over the last four hours? Copilot actually knows
+about that work I've done. What we've seen is Copilot using the Microsoft Graph of my files. It can also use the Microsoft Graph in or
+I'll look at my emails. Here I'll ask it
+about the emails I received about
+eyeglass technology. Here I have all the
+emails I've received. Now you've seen one of the significant
+advantages of using Copilot with a business
+subscription to 365. Let's go ahead and
+use Copilot in Word. Here, I've opened a blank file, and I've simply named it Innovations in 18th century
+Eyeglass Technology. I have two ways to
+access Copilot. One is up here on the right
+and it's familiar spot. The other, which we'll
+begin with is right here in line and it says
+draft with Copilot. Now, I'd like to
+suggest to Copilot. What are three
+innovations we use today from eyeglass technology? But here's the difference. I can now ask Copilot to
+actually reference my content. I have a document eyeglasses
+in the 18th century. I will ask it to generate that. Now, I can keep it. I can regenerate it. I'll go ahead and keep it. Now, just for comparison's sake, here's the document
+that it referenced eyeglasses in the 18th century. Now, let's go ahead
+and use Copilot. Here we'll see on the side, we can summarize this document, or we can ask a question
+about this document. We'll go ahead and
+Copilot lets us say, What did Ben Franklin contribute
+to eyeglass technology? Here we see Copilot
+in action with Word and the ability to
+use and reference files. That is very important
+in a business setting. Now that we've worked
+through the step by step guides demonstrating
+in these two videos, I am confident you have the know how to unlock the many features of Copilot for both
+personal and team use. From understanding
+license requirements and managing identities
+to customizing for context and
+ensuring data security, we've equipped you
+with the knowledge to enhance team collaboration
+and productivity. Remember, the right setup. Not only safeguards
+sensitive information, but also optimizes
+Copilot functionality, making every project a success. You have learned how to
+correctly set up Copilot for seamless integration and
+understand license requirements, as well as manage
+identities to customize for context and ensure
+data security. I have also equipped you
+with the knowledge to enhance team collaboration
+and productivity. By now, you also know how to add reference files in Word to
+provide context to Copilot, Now, go get started on transforming your team's
+productivity and efficiency. Start by setting up Copilot with the Insights from
+these demonstrations. Remember, Copilot is
+more than just a tool, it's an assistant and a guide. Embrace it and watch
+your productivity soar.

@@ -1,0 +1,121 @@
+Have you ever found
+yourself struggling to get the precise help you need
+from Office 365 Copilot? Imagine if you could
+master the art of asking to turn your interactions with Copilot into a more
+efficient experience. In this video, you're
+going to learn just that, the simple yet powerful
+technique of crafting prompts called
+prompt engineering to get you exactly
+what you need. By the end of this
+video, you will one, craft clear and
+specific prompts that enhance your productivity
+with Office 365 Copilot. Two, you'll use contextual information to
+improve Copilot's responses. Three, you'll apply natural
+conversational language to communicate
+effectively with Copilot. Welcome to the final
+lesson in Copilot for Microsoft Office 365
+with me, Rob Rubin. Today we're going to talk
+about prompts and prompting. Would you like to improve the responses that
+Copilot gives you? Just like your
+communication with others improves over time, so can your prompting with
+co pilot be improved. In this video, I want to teach you the anatomy
+of a good prompt. We will compare the output
+from examples obtained from ineffective as well
+as effective prompts, and discuss why these
+responses are different. Then, we will look at how to improve ineffective prompts
+to get what you want. Like a native New
+Yorker would joke, how do you get to Carnegie Hall? You get there by practice,
+practice, practice. Let's get started. First, let's see what effects clarity and
+specificity have on our prompts. Let's consider following prompt examples for
+this situation. You've moved to a
+new company and you want to let your old
+clients know you've moved. Let's ask Copilot
+to write an email. Copilot, draft an email to my former client mailing list and tell them I've
+moved to a new company. What is Copilot going
+to do with that prompt? Well, it was a simple prompt, so it shouldn't be
+a surprise that co pilot has provided a
+pretty simple result. Let's look at a more
+detailed prompt. Copilot, please write the
+email to my colleagues, explain to them what
+my new company does, and why I've chosen
+to join the company. List the top interesting
+products the company offers, which I'd be happy
+to talk with them about in a follow up meeting. Please provide them with my new email address
+and a new contact card. Now we can see that there
+is more to the prompt. Copilot has provided a
+more detailed response. But let's actually spend some time comparing the
+results of those two prompts. We can see from
+example 1 that we provided co pilot
+with a vague prompt. In the second example, Copilot could utilize
+context awareness. The AI needs to understand
+not just the direct request, but also the context in
+which the request is given. This includes the relationships between the sender
+and recipients, the formality level, and any important information
+that should be included. Let's talk about the
+Microsoft Copilot prompt, 101 formula to help
+us understand what makes an effective prompt
+specifically for Copilot. It's a very simple
+four part formula. By following this formula, you will improve
+your prompts and they will eventually
+become second nature. Start with a goal,
+then provide context. Now, add the sources
+for reference, and lastly, set the
+expectations of the prop. To explore these,
+let's put ourselves in the shoes of Jess who has recently graduated
+from college, and is looking to write a
+cover letter for their resume. Jess is planning to apply
+to Mayfly Biotech as a data scientist and join the
+Bioinformatics department. Let's apply the 101
+formula to our scenario. We need to start with the goal. What type of response do
+we wind from Copilot? For our scenario, we
+want to cover letter. Copilot, please create a cover letter for the role
+described in this file. Secondly, you want
+to add context. State why you need this
+cover letter written, who is involved, and
+say what you need. Here's a context prom
+for our scenario. I want the cover
+letter written to the project lead.
+Please be formal. Now, for sources, we need to tell
+Copilot where to find the information you want it to use in creating the response. Use the job description
+and my resume as sources. Finally, specify to Copilot what your expectations
+are for the response. These could be based
+on the structure, word count, number
+of paragraphs, and the tone you
+were looking for. Here is an expectation
+prompt for our scenario. In the paragraph, describe
+how my skills fit the role. In the second paragraph, describe the projects
+I have worked on. In the second paragraph, use bullet points to describe the projects
+I have worked on. In the final paragraph, describe how the company's
+mission inspires me. Close with how excited I
+will be to join the team and how I'd be excited to learn and contribute to the
+team and the company. Make the tone friendly and use bullet points where useful. Now we can see our
+full completed prompt that shows the goal, the content, the sources,
+and the expectations. A conversational
+AI assistant like Copilot, integrated
+with Outlook, can leverage natural
+language processing, NLP, to help users compose emails more efficiently
+and effectively. This involves understanding
+the user's intent through conversational prompts
+and generating draft emails that align
+with the user's goals, the context of the email, and the relationship between the sender and the recipient. Let's consider a scenario
+where Carlos wants to draft an email to their team
+about an upcoming meeting. Instead of starting
+from scratch, the user can engage with Copilot by providing a prompt
+in natural language. The generative AI understanding
+the task, the time, the subject matter, and the urgency crafts
+an email draft. Take a minute to read
+the prompt and really understand how the
+interaction might unfold. Pause the video now, Carlos can then
+review the draft, make any necessary
+adjustments, and send it. Copilot's role is to provide
+a strong starting point, reducing the time and effort
+needed to compose the email. Now, pause the video here and take some time to
+read Copilot's response. Let's summarize. GenAI help you and your
+company in a big way. It's more powerful
+than you imagined, but you are in control
+of the responses. The responses you'll get from Copilot have to do with how
+you formulate your prompts. Now, practice iterating
+your prompts in Copilot and see how your
+responses have become refined. Your prompt engineering,
+your prompt design, and the way you
+write your prompts will improve over time. It's your biggest lever.

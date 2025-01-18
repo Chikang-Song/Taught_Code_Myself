@@ -1,0 +1,91 @@
+[MUSIC] Ever found yourself tweaking
+a PowerPoint slide over and over but not quite hitting the mark? Imagine being able to refine your approach
+using technology that allows you to communicate clearly. In this video, you will refine prompts
+iteratively to enhance the quality of outcomes when working with Office 365
+Copilot, and incorporate specific examples in your prompts to guide
+Copilot's responses more effectively. Welcome to Iterating on Prompt, where we unlock the power of prompt
+engineering with O 365 Copilot. With me, Rob Rubin, as your guide,
+we will explore how subtle changes in your prompts can yield significantly improved
+results from your copilot responses. To really understand how to iterate and
+refine prompts, let's use a scenario. Let's follow along with Alfred, someone who is greatly
+involved in their community. Alfred has decided, as part of their
+e-commerce company's community outreach, to create a presentation on
+the chestnut tree, intended for a citizen science project for
+his company's community service day. First, Alfred starts
+with a simple request. The first thing Alfred could do to create
+a presentation is complete the supplied prompt. Create a presentation
+of the chestnut tree. Now, do you think Alfred is feeling lucky? He would rather start from
+a Copilot created presentation than face a blank screen. Let's take a look at what the outcome
+is from the original prompt. Initially, the prompt is broad,
+yielding a general outcome. Now, Alfred has decided to refine
+his prompts through iteration. To achieve this, Alfred typed a much
+larger and more detailed prompt. Create a presentation
+of the chestnut tree. The audience is my colleagues. I want each slide to tell a story. In this context,
+tell us about the chestnut tree ecosystem, its history and its cultural uses. Include a section on foods and recipes using the chestnut
+across different cultures. Add slides about four different
+foods from chestnuts. Conclude by telling the sad story of
+the blight and its restoration efforts. Okay, what did Alfred get from
+the refined and iterated efforts? Let's take a look. Wow, the life and legacy of
+the chestnut tree, Castanea dentata. Isn't that wonderful? It has even created a very
+beautiful animation. Copilot has created slides about
+the cultural significance of the chestnut tree and
+the ecosystem surrounding these trees. And it's even gone and
+created speaker notes for Alfred. Because Alfred also asked it to tell
+us the story of the chestnut blight, what it is, and its restoration efforts, Copilot has also provided
+a few slides on these. And there we go. Alfred has speaker notes and
+a very interesting presentation. Alfred can go and show his colleagues
+that chestnut blight is a fungal disease that wiped out most trees
+during the early 20th century. By refining our prompt, we see a marked improvement in
+the presentation's depth and relevance. Now, let's learn how we can improve our
+outputs through iterating our Copilot responses, and also, how this is
+different from refining prompts. Let's stick with the first scenario
+where Alfred created the PowerPoint presentation on the American chestnuts and
+chestnut blight. But in the next scenario, we will look at
+how Alfred iterates his prompts to add on to the original responses
+received from Copilot. Alfred decided that it will be worthwhile
+adding a little tidbit on the significance of the American chestnut to
+the First Nations, Native Americans. Because Alfred will iterate his prompts,
+each prompt will incrementally add more features to the final
+PowerPoint presentation. Alfred now uses the following prompt to
+iterate the next response from Copilot. Please add information on how the
+chestnuts were a crucial food source for the Native American tribes. By adjusting his approach,
+Alfred created a single additional slide about the chestnut significance
+to Native American tribes. This focused task illustrates how
+specifying examples can direct Copilot to generate richer content that is
+more aligned with the objectives. Alfred decided he does not want to
+end his presentation with a sad conclusion on how chestnut blight
+wiped out the trees and stop there. So Alfred iterates on
+his last response and asks Copilot to conclude the presentation
+with an additional slide about any successful forestry and
+recovery efforts made to date. Alfred adds the following
+iteration prompt. Please add an additional slide and
+information about any successful forestry and recovery efforts made to
+date to eliminate chestnut blight and restore the chestnut
+tree numbers in America. Make this the new conclusion
+to the presentation. And here we see the forestry and
+recovery efforts and the restoration. Copilot has added four slides. Okay, our results, we've generated
+content which we have developed incrementally through iterating
+prompts from the original response. We've created a story with depth and
+different parts, and we have concluded the presentation with some positive
+feedback which is factual and current. As you can imagine, we can iterate some
+more to develop some additional sections. We could add iterating
+prompts to add a slide for some Q&A, as well as a thank you slide. Personally, at the end of work like this, I like to make sure all
+the fonts are the same. Particularly, my personal affection is for
+the font Aptos. So I can add a prompt, for
+example, asking Copilot, please change all fonts used
+on all slides to Aptos. You can even now go and add different
+font sizes for headings, subheadings, and body text, and you can ask Copilot to add transitioning
+preferences in your presentation. And that is how Alfred can very quickly
+develop an impactful PowerPoint presentation. In this video,
+we explored the processes of refining and iterating prompts and the strategic
+use of examples to guide Copilot. This approach not only improves
+the quality of outcomes, but also enhances our
+interaction with technology. And through some scenarios, I've shown you
+how we've taken the whole chestnut tree, that very large, beautiful tree, told its
+story, asked for some specific facts, refined our prompts to get better details,
+and a much more coherent slide deck. Now, try to create your own slides for
+an upcoming presentation you may have. Start experimenting with your prompts
+in Copilot, and notice how refining and iterating these can significantly
+enrich your communications. Remember, the art of prompt engineering
+is a skill that grows with practice. Let's iteratively refine,
+inspect, and adapt. [MUSIC]

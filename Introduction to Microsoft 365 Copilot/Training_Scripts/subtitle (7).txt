@@ -1,0 +1,76 @@
+[MUSIC] Imagine having a companion by your side
+as you navigate through PowerPoint presentations, Word documents,
+Excel spreadsheets, and Outlook emails. Enter Copilot 365,
+think of Copilot as a partner that brings together the best of both worlds,
+the efficiency of an automated help desk assistant
+ready to streamline your tasks, and a peer who sparks your creative and
+analytical insights. By the end of this lesson, you will
+be able to accurately identify and explain how you can use Copilot as both
+an automated help desk expert and a peer. This dual capability can considerably
+help to improve your productivity. Most importantly,
+you will be able to demonstrate how to apply Copilot 365's features
+to real-world tasks. You will explore practical exercises and examples in utilizing Copilot
+365 to improve the creation and editing of presentations, documents,
+spreadsheets, and email management. In this video, you will explore the dual
+nature of Copilot 365 as both an automated help desk assistant and a peer assistant
+that enhances creativity and insights. You will also learn how Copilot 365
+can streamline tasks while fostering creativity and efficiency in PowerPoint,
+Word, Excel and Outlook. Welcome Rob Urban here. Our challenge today is to propose
+a marketing plan for the fourth quarter. Our tools are Copilot and Word. We will use Copilot as both a knowledge
+assistant and as an expert user. We have opened Microsoft Word. There are two ways we can access Copilot. We see Copilot inline in the document and
+we see the familiar icon in the toolbar. We click on Copilot inline and it invites
+us to describe what we'd like to write. We are facing a blank screen. How do we begin? Notice that Copilot has a 2,000 character
+limit on its prompt that is rather large. Many people begin with a simple prompt, an ecommerce marketing plan for
+the fourth quarter. We are going to write a detailed prompt. What expertise should Copilot use? You're a multichannel expert
+in ecommerce marketing. What's the output? A proposal for the fourth quarter,
+keep the length to one page. The audience, it's the director marketing,
+cover three topics, objectives, budget and
+proposed activities. We are even going to caution
+against unnecessary work. Copilot has generated a rather
+interesting brief on our proposed marketing spend using our guidelines. The clear next step is to review it,
+edit it, and make sure it reflects
+our marketing program. Although we won't do that
+in this demonstration. Remember, it is always our
+job to review Copilot's work. We decide to keep it. Before we can proceed, we notice it is
+hard to read and understand the budget. Let's ask Copilot to
+be our expert user and help us reformat these bullets as a table. That looks very good, let's keep it,
+but let's fine tune this table. We don't see total percent and total cost. Add a total spend to
+the bottom of the table. That looks much better now. We need to summarize this document so that we can send it to
+the director of marketing. Let's move over to use Copilot
+on the toolbar ribbon, we'll use Copilot as our
+knowledge assistant. We see Copilot offers us the opportunity
+to summarize the document or to ask questions. We use the prompt suggested by Copilot. Our knowledge assistant
+has produced a summary. The summary even includes
+references to the source of the information in the document,
+that is sweet. In this brief intro, we've seen how
+Copilot can be a knowledge assistant by using the corpus of the LLN and
+its ability to summarize text. We've also seen how Copilot
+serves as an expert user. Formatting bullets as a table, we have been invited to review our
+marketing plan for the fourth quarter. We will use Copilot to help
+create our PowerPoint. We find the now familiar Copilot icon in
+the toolbar ribbon and we click on it. Once again, we are facing a blank screen. Copilot offers a menu of prompts. We would like to create a presentation
+from the document we just created. We choose this. Notice how convenient it
+was to select the file. We choose this option and
+Copilot adds the prompt to the dialog box. Only Word documents can be used by
+Copilot to create a presentation. Those documents must be
+already saved in the cloud. Copilot is informing us of the steps it's
+taking to generate the presentation. Copilot generated the presentation. Indeed, the presentation is professional
+and derived from our document. Not only does it include some compelling
+images, it also has speaker notes and to be sure,
+it includes the original content as well. To be sure,
+our job is to review the content, edit it, make sure it reflects our thinking. But for now,
+we will defer the content work. Let's go a little further and begin to
+see what else Copilot can help us with. You select the first Copilot
+icon in the prompt dialog area. It contains a menu of
+well organized prompts. Create, Edit, Ask, while we can
+certainly select one of these, I find it useful to view more prompts. We view the edit prompts and
+we see organize your thoughts. Let's organize this
+presentation into sections. We are saving ourselves from
+repetitive work by asking Copilot to serve as our expert user. We view the presentation
+in the slides order and we can see how Copilot
+organized the sessions. In this brief intro,
+we've seen copilot in action. It transformed our document
+into a presentation, provided relevant images that
+can spark our creativity, provided us with speaker notes,
+and organized the sections. It has served as an expert user and
+as an editorial assistant.
