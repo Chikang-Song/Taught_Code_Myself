@@ -1,0 +1,72 @@
+Welcome to “Unit Testing.” After watching this video, you will be able to: Define unit testing Explain the unit test process Build and execute unit tests And review the output of a unit test Unit testing is a method to validate if
+units of code are operating as designed. A unit is a smaller, testable
+part of an application. Here is an example of a unit,
+which has two functions, square and doubler, in the mymodule.py file. The square function is written as def square open round number close round
+return number asterisk asterisk two. Similarly, the code for the doubler function is written as def doubler open round number
+close round return number asterisk two. To develop unit tests, you
+will use the unittest library, which is an installed Python module providing
+a framework containing test functionality. Let’s briefly review the end-to-end
+testing process from unit testing through publishing to the production code base. During code development, you will test each
+unit. The test is performed in two phases. In the first phase, you will test the unit
+on your local system. If the test fails, you will determine the reason for
+the failure and fix the issue. Then, you will again test the unit. After the unit test passes, you will need to
+test the unit in a server environment, such as the continuous integration continuous delivery (or
+CI/CD) test server. If the unit fails the server test, you will receive the failure details.
+You will need to determine and fix the issue. Once the unit passes the server test, the
+unit is integrated into the final code base. After an overview to the unit test process, let’s review some test functions to
+understand how to build unit tests. Notice the code for the unit and the unit
+test. Observe that the name of the unit file is mymodule.py. The unit test file has the word
+test appended or prepended. This is a good naming convention as it helps to clearly differentiate
+the unit file from the unit test file. Let’s look at the steps to
+create a unit test file. The first step is to import the unittest
+Python library. Type import unittest. Next, import the functions to test. For
+example, to import the square and doubler from the mymodule unit to unittest, type
+from mymodule import square comma doubler. Then, build the unit testing class to call
+the unit tests from a single class object. For example, to create a class named TestMyModule, enter class Test with uppercase T in the
+first occurrence, My with uppercase M, Module with capital M open round unittest
+dot TestCase with T and C in uppercase. Notice how the class name has Test prefixed to the unit name in the example. It is a good
+naming convention to prefix test to the class name to help distinguish between
+the unit class and the unit test class. Next, make the class inherit the
+TestCase class of the unittest library. For example, TestCase is the test
+case class of the unittest library. Inheriting the class allows you to leverage
+the existing methods in the TestCase class. Then, create functions in the unit testing
+class corresponding to each function that needs to be tested. For example, in
+the TestMyModule class, two functions, test_square and test_doubler, correspond to the
+square and doubler functions in the mymodule unit. Note: Make sure that the functions are
+prepended with test in the unit test module, because only functions that
+start with test are run. Finally, you can create test cases. When creating the test cases, add one
+or more assertion methods to ensure that the unit test condition is met. One
+assertion function is assertEqual(). Notice that the method has been added
+to the TestCase class in the code. The assertEqual() function compares two values
+or entities and determines if they are equal. The method is used to check if functions
+are returning the correct values. One of the parameters that the assertEqual()
+function takes is the actual value. For the actual value, you will call the function
+that you want to test. The second parameter is the expected value where you will add
+what the function is expected to return. In the example, the first test is for
+the square function using the number 2, which should return a value 4 if
+the function executes correctly. As part of the test, first, the function is
+evaluated. Then, the two values are compared to see if they are equal. Depending on the output
+of the comparison, the test passes or fails. After running the test file, an
+output is generated. The output displays the test result along
+with some additional details. For example, in the output displays
+that 2 tests were run in zero seconds. OK indicates that the test passed and the
+two functions were implemented correctly. But what happens if the function
+was not implemented correctly? Consider the square function where
+you wrote the code to calculate the cube of a number instead of square. The
+function fails and an output is generated. Let’s review the sample output of a
+failed unit test. The output clearly displays that the unit test failed.
+For example, the output states Fail test underscore square open round underscore
+underscore main underscore underscore dot Test My Module with capital T and
+M and no spaces close round . You can also view the function where the unit
+test failed. For example, test underscore square self dot assert no space equal with capital E
+open round square open round two close round comma four close round indicates that the square
+function failed. Assertion Error with initial A and E in capital letters eight exclamation
+equals four indicates the value mismatch. The detailed output enables you to correct a mistake before the actual
+deployment of your solution. In this video, you learned that: Unit testing is a method to validate if
+units of code are operating as designed. During code development, each unit is tested.
+The unit is tested in two phases. Once the unit passes the server test, the unit is merged into
+the final codebase. Make sure that the test files are prepended or appended with the word test to
+clearly differentiate them from the module file. You can use different test
+functions to build unit tests. assertEqual() function is a commonly used
+assertion method to compare two values. You can review the unit test output and
+determine if the test passed or failed.
