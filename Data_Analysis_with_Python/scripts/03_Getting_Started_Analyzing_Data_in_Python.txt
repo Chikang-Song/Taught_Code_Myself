@@ -1,0 +1,64 @@
+In this video, we introduce some simple Pandas methods that all data scientists and analysis should know
+when using Python, Pandas, and data. At this point, we assume that
+the data has been loaded. It's time for us to
+explore the dataset. Pandas has several built in methods that can be
+used to understand the data type of features or to look at the distribution of
+data within the dataset. Using these methods
+gives an overview of the dataset and
+also points out potential issues such as
+the wrong data type of features which may need
+to be resolved later on. Data has a variety of types. The main types stored in
+Pandas objects are object, float, int, and date time. The data type names are somewhat different from those
+in native Python. This table shows the difference and similarities between them. Some are very similar, such as the numeric data
+types int and float. The object pandas type functions similar to string in Python, save for the change in name. While the date time
+Pandas type is a very useful type for
+handling time series data, there are two reasons to check
+data types in a dataset. Pandas automatically
+assigns types based on the encoding it detects
+from the original data table. For a number of reasons, this assignment
+may be incorrect. For example, it would be awkward
+if the car price column, which we should expect contain continuous numeric numbers, is assigned the data
+type of object. It would be more natural for
+it to have the float type. Jerry may need to manually
+change the data type to float. The second reason is it allows an experienced data
+scientist to see which Python functions can be
+applied to a specific column. For example, some math functions can only be applied
+to numerical data. If these functions are applied
+to non numerical data, an error may result. When the data type method
+is applied to the dataset. The data type of each column
+is returned in a series. A good data scientist's
+intuition tells us that most of the data
+types make sense. They make of cars, for examples are names. This information should
+be of type object. The last one on the
+list would be an issue. As bore is a dimension
+of an engine, we should expect a numerical
+data type to be used. Instead, the object
+type is used. In later sections,
+Jerry will have to correct these types
+of mismatches. Now we would like to check
+the statistical summary of each column to learn about the distribution of
+data in each column. The statistical metrics can tell the data scientist if there are mathematical
+issues that may exist, such as extreme outliers
+and large deviations, the data scientists may have to address
+these issues later. To get the quick statistics, we use the described method. It returns the number of
+terms in the column as count, average column value as mean, column standard
+deviation as STD, and maximum minimum values, as well as the boundary
+of each of the quartiles. By default, the data
+frame described functions skips rows and columns that do not
+contain numbers. It is possible to make
+the described method work for object type
+columns as well. To enable a summary
+of all the columns, we could add an argument, include equals, all inside the described function bracket. Now the outcome
+shows the summary of all 26 columns including
+object type attributes. We see that for the
+object type columns, a different set of statistics is evaluated like unique,
+top, and frequency. Unique is the number of
+distinct objects in the column, top is most frequently
+occurring object, and frequent is the number of times the top object
+appears in the column. Some values in the table
+are shown here as NaN, which stands for not a number. This is because that particular statistical metric cannot be calculated for that
+specific column data type. Another method you
+can use to check your dataset is the
+dataframe.info function. This function gives a concise
+summary of the data frame. This method prints information about a data frame including the index D type and columns non-null values,
+and memory usage.

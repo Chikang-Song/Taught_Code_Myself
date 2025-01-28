@@ -1,0 +1,43 @@
+In this video,
+we'll introduce you to various correlation
+statistical methods. One way to measure the strength of the correlation between continuous numerical
+variables is by using a method called
+Pearson Correlation. Pearson Correlation method
+will give you two values; the correlation coefficient
+and the p-value. How do we interpret
+these values? For the correlation coefficient, a value close to one implies a large
+positive correlation, while a value close to -1 implies a large
+negative correlation, and a value close to zero implies no correlation
+between the variables. Next, the p-value
+will tell us how certain we are about the
+correlation that we calculated. For the p-value, a value less than 0.001 gives us a strong certainty about the correlation coefficient
+that we calculated, a value between 0.001 and 0.05 gives us
+moderate certainty, a value between 0.05 and 0.1 will give us
+a weak certainty, and a p-value larger than 0.1 will give us no certainty
+of correlation at all. We can say that there
+is a strong correlation when the correlation
+coefficient is close to one or -1 and the
+p-value is less than 0.001. The following plot shows data with different
+correlation values. In this example, we want
+to look at the correlation between the variables
+horsepower and car price. See how easy you can calculate the Pearson Correlation using
+the Scipy stats package? We can see that the
+correlation coefficient is approximately 0.8 and
+this is close to one, so there's a strong
+positive correlation. We can also see that the
+p-value is very small, much smaller than 0.001, and so we can
+conclude that we are certain about the strong
+positive correlation. Taking all variables
+into account, we can now create a
+heat map that indicates the correlation between each of the variables
+with one another. The color scheme indicates the Pearson correlation
+coefficient, indicating the strength of the correlation
+between two variables. We can see a diagonal line
+with a dark red color indicating that
+all the values on this diagonal are
+highly correlated. This makes sense because
+when you look closer, the values on the diagonal are the correlation of all
+variables with themselves, which will be always one. This correlation
+heat map gives us a good overview of how the different variables are
+related to one another, and most importantly, how these variables
+are related to price.

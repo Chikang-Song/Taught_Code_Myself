@@ -1,0 +1,62 @@
+Hello, in this video, you will learn how to access
+databases using Python. Databases are powerful
+tools for data scientists. After completing this module, you will be able to
+explain the basic concepts related to using Python
+to connect to databases. This is how a typical
+user accesses databases using Python code written on a Jupiter Notebook, a web-based editor. There is a mechanism by which the Python program
+communicates with the DBMS. The Python code connects to
+the database using API calls. We will explain the basics of SQL API's and Python DB APIs. An application programming
+interface is a set of functions that you
+can call to get access to some type of service. A SQL API consists of library function calls as an application
+programming interface (API) for the DBMS. To pass
+SQL statements to the DBMS, an application program
+calls functions in the API, and it calls other
+functions to retrieve query results and status
+information from the DBMS. The basic operation of a typical SQL API is
+illustrated in the figure. The application program begins its database access with one or more API calls that connect
+the program to the DBMS. To send a SQL
+statement to the DBMS, the program builds
+the statement as a text string in
+a buffer and then makes an API call to pass the buffer contents to the DBMS. The application program
+makes API calls to check the status of its DBMS
+request and to handle errors. The application program
+ends its database access with an API call that disconnects
+it from the database. DB API is Python standard API for accessing
+relational databases. It is a standard
+that allows you to write a single program
+that works with multiple kinds of
+relational databases instead of writing a separate
+program for each one. If you learn the
+DB API functions, then you can apply
+that knowledge to use any database with Python. The two main concepts in the Python DB API are connection objects
+and query objects. You use connection
+objects to connect to a database and manage
+your transactions. Cursor objects are
+used to run queries. You open a cursor object
+and then run queries. The cursor works similar to a cursor in a text
+processing system, where you scroll
+down in your result set and get your data
+into the application. Cursors are used to scan through the results
+of a database. Here are the methods used
+with connection objects. The cursor method returns a new cursor object
+using the connection. The commit method
+is used to commit any pending transaction
+to the database. The rollback method
+causes the database to roll back to the start of
+any pending transaction. The closed method is used to
+close a database connection. Let's walk through a
+Python application that uses the DB API to
+query a database. First, you import
+your database module by using the connect
+API from that module. To open a connection
+to the database, you use the connection function and pass in the parameters. That is, the database name,
+username, and password. The connect function returns
+a connection object. After this, you create a cursor object on the
+connection object. The cursor is used to run
+queries and fetch results. After running the queries
+using the cursor, we also use the cursor to fetch
+the results of the query. Finally, when the system is
+done running the queries, it frees all resources by
+closing the connection. Remember that it is
+always important to close connections to avoid
+unused connections taking up resources. Thanks for watching this video.
