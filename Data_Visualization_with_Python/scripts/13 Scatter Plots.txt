@@ -1,0 +1,54 @@
+Welcome to Scatter Plots. After watching this video, you'll be able to: describe what is a scatter plot with
+the help of an example, explore the scatter
+plot creation process using Matplotlib. What is a scatter plot? A scatter plot is a type of
+plot that displays values pertaining to typically two
+variables against each other. Usually, it's a
+dependent variable that is plotted against an independent variable
+to determine if any correlation between
+the two variables exist. For example, here's
+a scatter plot of income versus education. And by looking at
+the plotted data, one can conclude that an individual with more
+years of education is likely to earn a
+higher income than an individual with fewer
+years of education. How can we create a scatter
+plot with matplotlib? We are considering
+dataframe df_canada, which has country names set as an index and one
+column is total, which represents the
+cumulative sum of annual immigration from each
+country from 1980-2013. Let's say we want to
+create a scatter plot of the total annual immigration
+to Canada from 1980-2013. To be able to do that, we first need to create a new dataframe that
+shows each year and the corresponding total
+number of immigrants from all countries worldwide
+as shown here. Let's name this new
+dataframe as df_total. Then we proceed as usual, we import matplotlib as mpl
+and its scripting layer, the pyplot interface as plt. We use the plot function
+on the dataframe df_total, and we set kind=scatter to generate
+a scatter plot. Unlike the other data
+visualization tools, we're only passing in the kind parameter was
+enough to generate the plot. With scatter plots, we also need to pass the
+variable, which is on the horizontal axis as
+the x parameter and the variable that is on the vertical axis
+as the y parameter. In this case, we're
+passing column year as the x parameter and column
+total as the y parameter. Then to complete the figure, we give it a title and label
+its axes appropriately. Finally, we use the show
+function to display the figure. There you have it.
+A scatter plot that shows total immigration to Canada from countries all over
+the world from 1980-2013. The scatter plot clearly depicts an overall rising trend
+of immigration with time. Consider the use of
+the color parameter, which we have assigned
+a value of dark blue. You may like to pick a color of your choice from the
+available color palettes. For instance, see how the
+plot is in the color red. You can also use
+the s parameter to represent any third
+variable if you want to. Here we have included
+the total from the African continent
+to represent the size of each
+marker over the years. And it is evident
+that the number of immigrants has increased over these years as the size of the markers in the scatter
+plot is increasing. In this video, you learned
+That: a scatter plot displays values pertaining to typically two variables
+against each other. The process of creating a
+scatter plot involves importing matplotlib to visualize
+a large set of data.

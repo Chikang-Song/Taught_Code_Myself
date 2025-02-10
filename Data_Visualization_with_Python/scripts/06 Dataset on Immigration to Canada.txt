@@ -1,0 +1,37 @@
+[MUSIC] Hello, and welcome to Dataset
+on Immigration to Canada. After watching this video,
+you'll be able to understand the data set to be used in this course for
+data visualization. Import data with pandas as
+a DataFrame in your program. Process data to make it suitable for
+plotting. We will use the Population Division of the
+United Nations compiled immigration data pertaining to 45 countries, where for
+each country, data corresponding to the total number of immigrants from
+all world countries are reported. In addition to other metadata pertaining
+to the immigrants countries of origin, in this course, we'll focus on Canada and work primarily with the data set involving
+immigration to the Great White North. Here is a snapshot of the UN data on
+immigration to Canada in the form of an Excel file. The first 20 rows contain textual
+data about the UN department and other information. Row 21 contains the labels of the columns. Following that,
+each row represents a country along with metadata about the country,
+such as the continent it resides in, what region it belongs to, and whether
+the region is developing or developed. Then we have the total number of
+immigrants from that country for the years 1980 all the way to 2013. Throughout this course,
+we will be using pandas for any analysis of the data before
+creating visualization tools. So in order to start creating different
+types of plots of the data, whether for exploratory analysis or for presentation, we will need to import the data
+into a pandas DataFrame. To do that, we will need to import the
+pandas library, as well as the openpyxl library, which is required to extract
+data from Excel spreadsheets files. Then we will call the pandas function,
+read excel. To read the data into a pandas DataFrame,
+notice how we're skipping the first 20 rows to read only the data
+corresponding to each country. If you want to confirm that you have
+imported your data correctly, you can always use the head function to display
+the first five rows in the DataFrame. Now, let's process the data frame so that the country name becomes
+the index of each row. This should make querying
+specific countries easier. Also, let's add an extra column which
+represents the total immigration for each country from 1980 to 2013. So, for Afghanistan it's 58,639, and for Albania it's 15,699, and so on. Now let's name our DataFrame df_canada. In this video, you learned that, the
+population division of the United Nations compiled immigration data
+pertaining to 45 countries. The UN data on immigration
+to Canada shows data related to the number
+of people who migrated. In order to start creating different
+types of plots of the data, you will need to import the data
+into a Pandas data frame. [MUSIC]

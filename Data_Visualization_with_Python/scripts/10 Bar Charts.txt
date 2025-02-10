@@ -1,0 +1,48 @@
+Welcome to Bar Charts. After watching this video, you'll be able to: describe a bar chart with the
+help of an illustration, explore the process of creating a bar chart using Matplotlib. A bar chart is a popular
+visualization tool. Unlike a histogram, a bar chart, also known as a bar graph, is a type of plot where
+the length of each bar is proportional to the value of
+the item that it represents. It's commonly used to
+compare the values of a variable at a
+given point in time. For example, say we want to visualize in a discrete fashion, how immigration from Iceland
+to Canada looked 1980-2013. One to do that is by building a bar chart where
+the height of the bar represents the total
+immigration from Iceland to Canada in
+a particular year. How do we do that
+with Matplotlib? From our dataset on
+immigration to Canada, we created a dataframe
+called df_canada. Having country names
+as the index of each row and a column
+total represents the cumulative sum of
+annual immigration from each country 1980-2013. Let's see how we can use Matplotlib to generate
+a bar chart to visualize what immigration from Iceland to Canada
+looked like 1980-2013. As usual, we start by importing Matplotlib and it's
+scripting interface. Then we use the years variable
+to create a new dataframe. Let's name it df_iceland, which includes the
+data pertaining to annual immigration from
+Iceland to Canada, and excluding the total column. Then we use the plot
+function on df_iceland, and we set kind=bar
+to generate a bar chart. To complete the figure, we give it a title and
+label both of its axes. Finally, we use the
+show function to display the figure.
+There you have it. A bar chart depicts
+immigration from Iceland to Canada 1980-2013. By examining the bar chart, we noticed that
+immigration to Canada from Iceland has seen an
+increasing trend since 2010. I'm sure the curious
+among you are already wondering who the culprit behind this increasing trend is. You can also create a bar
+chart with horizontal bars by assigning bar to the kind
+parameter of the plot function. Note the use of the
+color parameter as you can change the color
+of the bar with this. Let's suppose you
+want to highlight the years with highest
+and lowest number of Icelandic immigrants to Canada between the year 1980 to 1990. You can pass a list of colors to the color parameter
+accordingly. Here we have highlighted
+the bars for the years 1981 and 1990
+with the color red. By assigning the color of your choice to the
+edge color parameter, you can change the borderline
+color of each bar. In this video, you learned that: a bar chart is
+a type of plot where the length of each
+bar is proportional to the value of the item
+that it represents. You can create a bar
+chart using Matplotlib representing the
+total immigration from Iceland to Canada.

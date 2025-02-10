@@ -1,0 +1,33 @@
+[MUSIC] Welcome to box plots. After watching this video, you'll be able to describe a box plot
+with the help of an illustration. Explain how to create box
+plots using Matplotlib. So, what is a box plot? A box plot is a way of statistically
+representing the distribution of given data through five primary dimensions. Minimum is usually the value
+obtained by subtracting 1.5 times the interquartile range, or
+IQR, from the first quartile. First quartile is the point 25% of
+the way through the sorted data. In other words, a quarter of the data
+points are less than this value. Median is the median of the sorted data. The third quartile is the point 75%
+of the way through the sorted data. In other words, three quarters of
+the data points are less than this value. The maximum is usually the value
+obtained by adding the third quartile to 1.5 times the IQR. Finally, box plots also display
+outliers as individual dots outside the outer and lower extremes. Let's see how we can create
+a box plot with Matplotlib. We first process the data frame,
+df_canada, to set the country name as the index and
+add a column representing the cumulative sum of annual immigration from
+each country from 1980 to 2013. We want to create a box plot to visualize
+immigration from Japan to Canada. As with the other tools we've learned, we start by importing Matplotlib as
+MPL and the Pyplot interface as PLT. Then we create a new dataframe
+in the data about Japan and we exclude the total column
+using the years variable. Then we transpose the resulting dataframe
+in the correct format to create the box plot. Lets name this new dataframe df_japan. Following that,
+we call the plot function on df_japan and set a kind=box to generate a box plot. Then we complete the figure,
+we give it a title and label the vertical axis appropriately. Finally, we use the show
+function to display the figure. And there you have it, a box plot
+that provides a good distribution of Japanese immigration to
+Canada from 1980 to 2013. From this plot, we can verify that
+there are no outliers in this data. Also, we can see that the median
+is closer to the top, indicating more data
+concentration in the upper half. In this video you learned that a box plot
+is a way of statistically representing given data distribution
+through five main dimensions. The five main dimensions are minimum,
+first quartile, median, third quartile, and maximum. You can create a box
+plot using Matplotlib. [MUSIC]

@@ -1,0 +1,57 @@
+Welcome to Histograms. After watching this video, you'll be able to: define a histogram
+with the help of an illustration, explore the process of creating
+a histogram using Matplotlib, let's start by defining
+what a histogram is. A histogram is a way of representing
+the frequency distribution of a numeric data set. The way it works is that it partitions
+the spread of the numeric data into bins, assigns each data point in
+the data set to a bin, and then counts the number of data
+points assigned to each bin. So, the vertical axis is
+essentially the frequency or the number of data points in each bin. For example, let's say the range of the
+numeric values in the data set is 34,129. Now, the first step in creating
+a histogram is partitioning the horizontal axis in, say,
+10 bins of equal width. Then we construct the histogram by
+counting how many data points have a value that is between the limits of the first
+bin, the second bin, the third bin, and so on. Say, the number of data points
+that have a value between 0 and 3,413 is 175,
+then we draw a bar of that height for this bin, we repeat the same step for
+all the other bins. And if no data points fall into a bin, then that bin would have
+a bar of height zero. So how do we create
+a histogram using Matplotlib? Let's process the data frame so that the country name becomes the index
+of each row, this should make retrieving rows pertaining to specific
+countries a lot easier. Also, let's add an extra column
+that represents the cumulative sum of annual immigration from
+each country from 1980 to 2013, so for Afghanistan it's 58,639 total, and for Albania it's 15,699, and so on. And let's name our data
+frame df_canada. Considering the Canada
+immigration data set, having countries as the index, and
+having another column as total represents the cumulative sum of annual
+immigration from each country from 1980 to 2013. Say we want to visualize the distribution
+of immigrants to Canada in the year 2013, the simplest way to do that is to generate
+a histogram of the data in column 2013. Let's see how we can do that
+with Matplotlib, first, we import Matplotlib as mpl and
+its scripting interface as plt. Then we call the plot function
+on the data in column 2013 and we specify kind=hist to
+generate a histogram, then, to complete the figure, we give it
+a title and label both its axes. Finally, we use the show function to
+display the figure, and there you have it: a histogram that depicts the distribution
+of immigration to Canada in 2013. But notice how the bins
+are not aligned with the tick marks on the horizontal axis,
+this can make the histogram hard to read. So, let's try to fix this in order to
+make our histogram more effective. One way to solve this issue is to borrow
+the histogram function from the NumPy library, so as usual, we start by importing
+Matplotlib and its scripting interface, but this time we also
+import the NumPy library, then we call the NumPy histogram
+function on the data in column 2013. This function is going to partition
+the spread of the data in column 2013 in ten bins of equal width,
+where ten is the default number of bins. It also computes the number of data
+points that fall in each bin and then return this frequency of each
+bin which we are calling ‘count’ here, and the bin edges which
+we will call ‘bin_ edges’. We then pass these bin edges
+as an additional parameter in our plot function to generate
+the histogram, and there you go. A precisely generated histogram
+with the bin edges and tick marks clearly aligned
+on the horizontal axis. In this video you learned that:
+a histogram is a way of representing the frequency distribution
+of a numeric data set. To generate a histogram on Matplotlib, you import Matplotlib as mpl and
+its scripting interface is plt. You can call the plot function on the data
+frame with kind parameter assigned as hist. You can use the NumPy library to create
+bins for the histogram representation. [MUSIC]

@@ -1,0 +1,56 @@
+Welcome to the data visualization
+with Python course. The data visualization with Python course is ideal
+for professionals with knowledge of Python
+programming language who aspire to become data analysts. In this course, you'll learn
+how to create meaningful, effective and aesthetically
+pleasing data visuals and plots in
+Python using Matplotlib. You'll explore advanced
+visualization tools that provide various advanced
+features and capabilities. In addition, you'll identify different web-based
+dashboarding tools available in Python. The last module will
+allow you to act as a data analyst to complete
+your final lab assignment. The five modules in this
+course comprehensively cover the concepts
+related to these areas. In module 1, you will learn about
+data visualization and best practices for creating
+plots and visuals, you will discover the history and architecture of Matplotlib. Furthermore, you'll learn
+about basic plotting with Matplotlib and explore the dataset on
+Canadian immigration, which you will use
+during the course. Lastly, you will analyze data in a DataFrame and generate
+line plots using Matplotlib. In module 2, you will create a diverse
+range of plots using Matplotlib and the data
+visualization library. This module will teach you
+about area plots, histograms, bar charts, pie charts, box plots, and scatter plots. You'll also explore the
+process of creating these visualization
+tools using Matplotlib. In module 3, you'll learn about waffle
+charts and word cloud. You will create regression
+plots using seaborn, a new visualization
+library in Python. In addition, you'll
+learn about folium, a data visualization library that visualizes geospacial data. Furthermore, you'll explore the process of
+creating maps using folium and superimposing them with markers to make
+them interesting. Finally, you'll
+learn how to create a choropleth map using folium. In module 4, you'll explore the
+benefits of dashboards and identify the different web-based dashboarding tools in Python. You will learn about plotly
+and discover how to use plotly graph objects and Plotly
+express to create charts, you will gain insight into dash and open source
+user interface, Python library and
+its two components. Finally, you will clearly understand the callback
+function and determine how to connect core and HTML
+components using callback. Finally, module 5, primary focus is helping you complete your final
+lab assignment. Your objective is to track and report on the performance of domestic flights
+operated by US airlines. The objective is to analyze the reporting airlines
+performance to improve flight and
+customer reliability. After completing this course, you can use different
+visualization libraries in Python, namely Matplotlib,
+seaborn, and folium, to create expressive
+visual representations of your data for
+different purposes. You'll also be able to use basic and advanced
+visualization tools and identify different
+web-based dashboarding tools. There is a lot to cover here. To get the most
+from this course, make sure to view every video, review your knowledge
+with each quiz, and complete all
+the hands-on labs. If you have any trouble
+with the course material, please don't hesitate to contact us and the
+discussion forum. Thank you for being
+part of our course We look forward to sharing this
+valuable knowledge with you

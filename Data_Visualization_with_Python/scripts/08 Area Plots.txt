@@ -1,0 +1,69 @@
+Welcome to Area Plots. After watching this video, you'll be able to: describe
+what is an area plot, explain how to create an
+area plot using Matplotlib. What is an area plot? An area plot, also known
+as an area chart or graph, displays the magnitude
+and proportion of multiple variables over
+a continuous axis, typically representing time
+or another ordered dimension. It's similar to a line plot, but with the area below the
+line filled with color to emphasize the cumulative
+magnitude of the variables. This kind of graph is
+commonly used when trying to compare two
+or more quantities. Let's learn how to generate
+an area plot with Matplotlib. Before we go over the code on how to generate an area plot, let's do a quick
+recap of our dataset. Recall that each row represents a country and contains
+metadata about the country, such as it's geographic location and its development status. Each row also contains numerical data of
+annual immigration from that country to
+Canada from 1980 - 2013. Now let's process the
+dataframe so that the country name becomes
+the index of each row. This should make retrieving rows pertaining to specific
+countries a lot easier. Also, let's add an extra column that represents
+the cumulative sum of annual immigration from each
+country from 1980 - 2013. For Afghanistan,
+it's 58,639 total. For Albania, it's
+15,699, and so on. Let's name our dataframe
+df_canada. Now that we know how we
+have stored our data in the dataframe df_canada. Let's try to generate
+area plots for the countries with the highest
+immigration to Canada. We can try to find
+these countries by sorting our dataframe in descending order of cumulative total
+immigration 1980-2013. We use the sort_values function to sort our dataframe
+in descending order. Here is the result. It turns out that India
+followed by China, then the United Kingdom, the Philippines, and Pakistan, are the top five countries with the highest
+immigration to Canada. Can we now go ahead and
+generate the area plots using the first five rows of this
+dataframe? Not quite yet. First, we need to create
+a new dataframe of these five countries only and
+exclude the total column. More importantly, to generate the area plots for
+these countries, we should plot the years on the horizontal axis and the annual immigration
+on the vertical axis. Note that Matplotlib plots
+the indices of a dataframe on the horizontal axis and
+with the dataframe as shown, Matplotlib plots the countries
+on the horizontal axis. To fix this, we need to take the transpose of the dataframe. Let's see how we can do this. After we sort our dataframe in descending order of cumulative
+annual immigration, we create a new dataframe
+of the top five countries, and we call it ‘df_top5’. We then select only the
+columns representing the years 1980 - 2013 in order to exclude the total column before
+applying the transpose method. The resulting dataframe is exactly what we want
+with five columns, where each column
+represents one of the top five countries and
+the years being the indices. Now we can go ahead and use the plot function on dataframe, df_top five to generate
+the area plots. First, we import Matplotlib as MPL and it's scripting
+interface as PLT. Then we call the
+plot function on the dataframe df_top5, and we set kind=area to
+generate an area plot. Then to complete the figure, we give it a title and label both the axes appropriately. Finally, we then use the show function to
+display the figure. Note that here we are generating the area plot using
+the inline backend, and there you have it. An area plot that depicts the immigration trend of
+the five countries with the highest immigration
+to Canada, 1980-2013. Area plots are
+particularly effective and depicting data with
+a cumulative nature, such as tracking stock
+market performance, visualizing population
+demographics, or displaying the distribution of resources across
+various sectors. In this video, you
+learned that: an area plot depicts cumulated totals using numbers or percentages
+over time. The process of
+creating an area plot involves importing
+Matplotlib and calling the plot function
+on the dataframe with kind parameter assigned as area. Area plots provide a visually appealing and
+intuitive way to showcase the relationship
+and proportion of multiple variables
+in a single chart.

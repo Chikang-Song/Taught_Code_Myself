@@ -1,0 +1,100 @@
+Welcome to introduction
+to Matplotlib. After watching this video, you'll be able to explain what Matplotlib is and
+why it was created. Describe the uses
+for Matplotlib. Matplotlib is one of the most widely used data visualization
+libraries in Python. It was created by John Hunter, who was an American
+neurobiologist. John Hunter was part
+of a research team analyzing electro
+CTO cartography, ECoG signals, and use proprietary
+software for this task. However, the team had only one license and was
+taking turns using it. To overcome this limitation, John Hunter set out to replace the proprietary software with a Matlab based version that
+could be utilized by him and his teammates and extended
+by multiple investigators. As a result, Matplotlib
+was initially developed as an EEG and ECoG
+visualization tool. Just like Matlab, Matplotlib was equipped with
+a scripting interface for quick and easy generation of graphics represented
+by the plot. As for Matplotlib's
+architecture, it's composed of
+three main layers. The backend layer,
+the artist layer, where much of the
+heavy lifting happens, is the appropriate
+programming paradigm when writing a web
+application server, a UI application, or a script to be shared
+with other developers. The scripting layer is the appropriate layer
+for everyday purposes. It's considered a lighter
+scripting interface to simplify common tasks and for quick and easy generation
+of graphics and plots. The backend layer has three built-in abstract
+interface classes. FigureCanvas defines end encompasses the area on
+which the figure is drawn. Renderer, an instance of the renderer class knows how
+to draw on figure canvas. The event handles
+user inputs such as keyboard strokes
+and mouse clicks. The artist is the object
+that knows how to take the renderer and put
+ink on the Canvas. Everything you see in a Matplotlib figure is
+an artist instance. The title, the lines, the tick labels, the images, and so on, all correspond
+to an individual artist. There are two types
+of artist objects. Primitive: Line2D,
+Rectangle, Circle, and Text. Composite: Axis, Tick, Axes, and Figure. The top-level Matplotlib
+object that contains and manages all the elements in each graphic is
+the figure artist. The most important composite
+artist is the axis because it's where most of
+the Matplotlib API plotting methods are defined, including methods to create
+and manipulate the ticks, the axis lines, the grid, and the plot background. Each composite
+artists may contain other composite artists as
+well as primitive artists. A figure artists can
+have an axis artist, a rectangle, and a text artist. The artist layer is
+syntactically heavy. Programmers work directly with the backend and artists
+layers as they offer greater convenience
+while integrating Matplotlib with
+application servers. When it comes to the
+daily tasks of scientists involving data visualization or exploratory interactions, the scripting layer known
+as Pyplot works better. Matplotlib scripting
+layer is the Matplotlib.Pyplot interface, which automatically
+defines a Canvas and a figure artist instance
+and connects them. Let's generate a histogram of 10,000 random numbers
+with the scripting layer. First we import the
+Pyplot interface and you can see all the methods associated with
+creating the histogram and other art objects
+and manipulating them. Whether the hist
+method or showing the figure is part of
+the Pyplot interface. Notice the use of Numpy's
+random module with random.randn for
+creating random floats from the Pyplot hist
+method is called, hist creates a sequence
+of rectangle artists for each histogram bar and adds
+them to the axes container. To the hist function, we have passed the
+variable X containing an array of 10,000
+random numbers and 100, which means creating 100 bins. The result is a histogram. It's simple to work in
+the scripting layer. The anatomy of a plot refers
+to the different components and elements that make up a visual representation of data. There's a reference on
+the official website of Matplotlib titled
+Anatomy of figure. This image provides a complete
+guide to understanding what a plot may include
+based on your requirements. The main component
+is the window or Canvas containing the
+plot or subplots. Matplotlib figure
+as a Canvas and axis represents an individual
+plot within a figure, you must first create two-axis parts to make
+two plots on one figure, the axis provides scales and tick marks for
+plotting the data. The actual data being
+plotted is represented as points or markers on
+the plot like the axis. A good plot must have a title to provide a summary or
+explanation of the plot. Likewise, labels describe data being plotted on each axis. You may like to
+include a legend to explain the meaning of different
+elements or data series and applaud a grid to help visually aligned data points and aid and reading
+values from the plot and annotations to provide
+supplemental information or explanations about
+specific data points are regions in the plot. You can choose symbols for individual data point,
+colors, and styles. This link will take
+you to a chapter written by the creators
+of Matplotlib. If you're interested
+in learning more about the history of Matplotlib
+and its architecture, then this is a
+recommended reading. In this video, you learned
+that Matplotlib is one of the most widely used data visualization
+libraries in Python. Matplotlib was initially
+developed as an EEG, ECoG visualization tool. Matplotlib architecture is
+composed of three main layers, the backend layer,
+the artist layer, and the scripting layer. The anatomy of a plot refers to the different
+components and elements that make up a visual
+representation of data.

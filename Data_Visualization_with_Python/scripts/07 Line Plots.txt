@@ -1,0 +1,59 @@
+Welcome to line plots. After watching this video, you'll be able to describe
+line plot and its function. Determine when to
+use a line plot, create a line plot from
+data in the dataset. What is a line plot? As its name suggests, it's a plot that displays
+information as a series of data points connected
+by straight lines. It is one of the
+most basic types of charts and is common
+in many fields, not just data science. Let's identify when
+to use a line plot. Line plots are useful for visualizing trends and
+changes over time, making them a popular choice
+for time-series data, such as changes in stock prices, website traffic, or
+temperature fluctuations. You can also use a line plot to show relationships between two variables,they can also
+be used to compare multiple data series
+on one chart. Line plots can also effectively highlight sudden changes
+or anomalies in data. As an example, from our dataset, we can generate a
+line plot to see the trend of immigrants
+from Haiti to Canada. Based on this line plot, we see that there is a
+spike of immigration from Haiti to Canada in 2010. We can then research
+for justifications of obvious anomalies
+or changes from a quick Google search for
+major events in Haiti in 2010 one would easily learn about the tragic earthquake
+that took place in 2010. Therefore, this influx
+of immigration to Canada was mainly due to
+that tragic earthquake. Now, how can we generate
+this line plot, as we briefly mentioned in an earlier video
+with matplotlib, all we have to do is call
+the plot function on the pandas data frame or series containing the
+data of interest. Before we go over each code. To do that, let's do a quick
+recap of our data set. Each row represents
+a country and contains data corresponding
+to the status of the country in terms
+of where it is located geographically and whether it
+is developing or developed. Each row contains
+numerical figures of annual immigration from
+that country to Canada, 1980-2013. Now let's process
+the DataFrame so that the country name becomes
+the index of each row. This should make querying
+specific countries easier. Also, let's add an extra
+column which represents the total immigration for
+each country, from 1980-2013. For Afghanistan, it's 58,639, for Albania, it's
+15,699, and so on. Now, let's name our
+DataFrame, df_canada. Now that we know how
+our data is stored in the DataFrame df_canada. Let's generate the line plot corresponding to
+immigration from Haiti. First, we import matplotlib as MPL and its scripting
+interface as PLT. Then we call the
+plot function on the row corresponding to Haiti, and we specify kind equals
+line to generate a line plot. Then to complete the figure, we give it a title
+and label its axis. Finally, we then call the show function to
+display the figure. Note that this is the code to generate the line plot using the magic function
+%matplotlib with the inline backend.
+There you have it. A line plot that depicts
+immigration from Haiti to Canada, from1980-2013. In this video, you learned
+that a line plot is a plot in the form of a series
+of data points connected by
+straight-line segments. Line plot is one of
+the most basic types of chart and is common
+in many fields. You can generate a
+line plot by assigning line to kind parameter
+in the plot() function

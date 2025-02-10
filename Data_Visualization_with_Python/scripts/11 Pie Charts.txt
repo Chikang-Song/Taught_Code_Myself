@@ -1,0 +1,41 @@
+[MUSIC] Welcome to Pie Charts. After watching this video, you'll be able to describe a pie
+chart with the help of an example. Explore the process of creating
+a pie chart using Matplotlib. So what is a pie chart? A pie chart is a circular statistical
+graphic divided into segments to illustrate numerical proportion. For example, here is a pie chart
+of the Canadian federal election. It represents the partywise percentage
+of seats won in the House of Commons. Next, let's learn how to create
+a pie chart with Matplotlib. Now, let's try to visualize
+the continentwise breakdown of immigration to Canada from
+our data set df_canada. The first step is to group the data by
+continent using the continent column, and we use Pandas for this. We call the Pandas group by function
+on df_canada, and we sum the number of immigrants from the countries that
+belong to the same continent. Here is the resulting data frame,
+and let's name it df_continents. The resulting data frame has six rows,
+each representing a continent, and 35 columns representing
+the years from 1980 to 2013, plus the cumulative sum of immigration for
+each continent. Now, we're ready to start
+creating our pie chart. We start as usual by importing
+Matplotlib as mpl and its scripting layer,
+the pyplot interface, as plt. Then we call the plot function on
+total column of the data frame df_continents, and
+we set kind = pie to generate a pie chart. Then to complete the figure,
+we give it a title. Finally, we use the show
+function to display the figure. And there you have it,
+a pie chart that depicts each continent's proportion of immigration to
+Canada from 1980 to 2013. The explode property of a pie chart in
+Matplotlib allows you to offset one or more slices from the center, highlighting
+specific sections of the chart. By assigning values to the explode
+parameter, you can control the degree of separation and
+emphasize particular segments of the pie. As shown in this pie, the continents
+where the total is less than 10% are exploded out to be highlighted. A final point about pie charts, there are some strong critics who oppose
+using pie charts in any condition. They argue that pie charts do not
+display accurate data consistently. When it comes to depicting
+data consistently and communicating the point,
+bar charts perform significantly better. If you are interested in learning about
+the arguments against pie charts, here's a link to a very
+interesting article that discusses very clearly
+the flaws of pie charts. You can also find
+the link under the video. In this video, you learned that a pie
+chart is a circular statistical graphic divided into segments to
+illustrate numerical proportion. The process of creating a pie chart
+involves importing Matplotlib. [MUSIC]
