@@ -1,0 +1,64 @@
+In this video, we'll
+discuss ridge regression. Ridge regression
+prevents overfitting. In this video, we will focus on polynomial regression
+for visualization. But overfitting is also
+a big problem when you have multiple independent
+variables or features. Consider the following fourth
+order polynomial in orange. The blue points are generated
+from this function. We can use a 10th order
+polynomial to fit the data. The estimated
+function in blue does a good job at approximating
+the true function. In many cases, real
+data has outliers. For example, this point shown here does not appear to come
+from the function in orange. If we use a 10th order polynomial function
+to fit the data, the estimated function
+in blue is incorrect and is not a good estimate of the
+actual function in orange. If we examine the expression
+for the estimated function, we see the estimated
+polynomial coefficients have a very large magnitude. This is especially evident for the higher
+order polynomials. Ridge regression controls
+the magnitude of these polynomial coefficients by introducing the parameter Alpha. Alpha is a parameter we select before fitting
+or training the model. Each row in the following table represents an increasing
+value of Alpha. Let's see how different values
+of Alpha change the model. This table represents the
+polynomial coefficients for different values of Alpha. The column corresponds to the different polynomial
+coefficients, and the rows correspond to the
+different values of Alpha. As Alpha increases, the
+parameters get smaller. This is most evident for the higher order
+polynomial features. But Alpha must be
+selected carefully. If Alpha is too large, the coefficients will approach zero and underfit the data. If Alpha is zero, the overfitting is evident. For Alpha equal to 0.001 the overfitting
+begins to subside. For Alpha equal to 0.01 the estimated function
+tracks the actual function. When Alpha equals one, we see the first signs
+of underfitting. The estimated function does
+not have enough flexibility. At Alpha equals to 10, we see extreme underfitting. It does not even
+track the two points. In order to select Alpha, we use cross validation. To make a prediction using ridge regression import ridge
+from sklearn linear models. Create a ridge object
+using the constructor. The parameter Alpha is one of the arguments of
+the constructor. We train the model
+using the fit method. To make a prediction we
+use the predict method. In order to determine the parameter Alpha we use
+some data for training. We use a second set
+called validation data. This is similar to test data, but it is used to select
+parameters like Alpha. We start with a small
+value of Alpha. We train the model, make a prediction using
+the validation data, then calculate the R^2
+and store the values. Repeat the value for a
+larger value of Alpha. We train the model again, make a prediction using
+the validation data, then calculate the R^2 and
+store the values of R^2. We repeat the process for
+a different Alpha value, training the model and
+making a prediction. We select the value of Alpha
+that maximizes the R^2. Note that we can
+use other metrics to select the value of Alpha, like mean squared error. The overfitting problem is even worse if we have
+lots of features. The following plot shows the different values of
+R^2 on the vertical axis. The horizontal axis represents different values for Alpha. We use several features from our used car data set and a second order
+polynomial function. The training data is in red and validation
+data is in blue. We see as the value
+of Alpha increases, the value of R^2 increases and converges at approximately 0.75. In this case, we select the maximum
+value of Alpha because running the experiment for higher values of Alpha
+have little impact. Conversely, as Alpha increases, the R^2 on the test
+data decreases. This is because the term
+Alpha prevents overfitting. This may improve the
+results in the unseen data, but the model has worse
+performance on the test data. See the lab on how to
+generate this plot.
