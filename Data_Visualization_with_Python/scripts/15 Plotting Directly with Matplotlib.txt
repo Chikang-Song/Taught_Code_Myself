@@ -1,0 +1,102 @@
+Welcome to plotting
+directly with Matplotlib. After watching this video, you'll be able to explore
+various functions offered by Matplotlib for data visualization and plotting. Differentiate between data storytelling and
+data visualization. Matplotlib is a general purpose, comprehensive plotting
+library that provides a flexible interface for
+creating a wide range of plots. It's pyplot module offers a convenient way to create
+and customize plots quickly. Let's start plotting
+directly with matplotlib. First, we need to
+import the library. Import matplotlib.pyplot as PLT. Here we're importing
+pyplot as PLT. We have also imported NumPy
+as np as numpy arrays are usually used as the data
+source for plotting and also support
+mathematical functions. Next, for tabular
+data, import pandas. Then call the subplot
+function and create a figure, the Canvas window and the axes. It's the area where
+the plot appears. The figure axes pair provides greater control over
+the figure or Canvas. Now name the plot that you
+want to create on these axes. Let's now call plot function on the axes to display
+the line plot, we'll create some synthetic data to generate the plot using NumPy years is equal to
+np.arange and passing 1980. 2014 to a range function will generate a 1D array
+of numbers 1980-2013 excluding 2014 immigrants
+equals np.random.randint will generate a 1D array of random integers, between
+2,000-10,000 range. Size equals 34, specifies the number of
+elements in the array. X.plot function will
+create a line plot. It takes the x and y values
+as arguments corresponding to the data to be considered for
+the x-axis and the y-axis. X.plot years immigrants. Finally display the plot using plt.show function and
+if you want to display this data as a
+scatter plot called the scatter function on
+x instead as shown here. X.scatter and past years
+and immigrants to it. Now let's put a
+title to the plots. To do so, simply pass the title string to the
+plt.title function. plt.title immigrants
+between 1980 to 2013. On both the plots, label the axis with
+plt.xlabel as years and plt.y label as total
+immigrants on both axes. You can apply the label entitled directly to the
+axes as shown here. Axes.set_title and
+pass the title string. Axes.set_ x-label or y-label. See now the plots have
+the title and the labels. Now using x-lim and
+y-lim functions, you can set the limits
+on the x and y-axis. To improve the readability, you can enable grid lines with grid function and
+pass it with true, like x.grid, true. Legend function will include
+the legend to your plot. Notice that the x-axis
+now starts with 1975 and ends with 2015, and now it shows the grid at
+the background of the plot. There are various options available to customize the plot. You can customize the plot with line styles, marker styles, and color customization
+options to achieve the desired
+visual effects. With marker, select a style to represent
+data points in your plot, like S for square
+and 0 for dots. For line plot, the
+marker is marker size, while in scatter it's
+just S. Similarly, you select a color
+and a size for it. With the line style parameter, you can select
+different line styles, such as solid, dashed,
+or dotted lines. Notice the use of LOC in
+the legend parameter to specify the location where the legend is placed
+on the figure. Let's now use a bar plot to represent the number of
+immigrants for each year. Ax.bar function
+creates a bar plot, passing years corresponding to the x-axis and the
+immigrants to the y-axis. The height of each
+bar represents the number of immigrants
+for that year. Ax.hist generates a histogram
+with bins set to 20. Notice the use of edge color
+and color parameters to specify the border and bar
+column of the histogram. Ax.pie will generate
+a pie on the axis. Here we're plotting a pie for only five years, 1980 to 1984. Colors you are assigned
+to each pie slice has a list of colors and
+labels are set is years. Auto PCT displays the percentage of immigrants with
+one decimal point. Now, let's explore
+how to display more than one plot on
+the same figure and specify the number
+of rows and columns to be created to the
+subplots function. For instance, let's create a line and scatter
+plot in one row, plt.subplots and pass one to it. Both the subplot will be sharing the same y-axis as the data
+in the y-axis is the same, so assign the Sheri
+parameter as true. Now you have two axes, axs with index zero and
+axs with index one, and you can plot your
+plots as you did earlier. Axs0.plot function for the line axs1.scatter for a scatter plot. And see you have created
+two plots together. Alternatively, we can use the add underscore
+subplot function. It takes three arguments, first, the number of rows, second, columns and the last
+is an index of the subplot. You can create different axes on the figure and add
+subplots as shown here. Ax 1 equals
+figure.add_subplot 2, 2, 1. This one means the first axes on the two-by-two divided figure. Then on these axes, create the plot
+like an ax1.plot. Similarly, you can plot all the plots you want
+on the four axes. Like this. You have all your plots on this
+figure. Great work. Lastly, let's learn about data storytelling and
+data visualization. These are two different terms and serve different purposes. Data storytelling is the art of storytelling that
+involves creating a narrative around the data. It presents a compelling
+and engaging story. On the other hand, data visualization is
+an important aspect of data storytelling
+and evolves, creating informative charts to understand and explore patterns, trends, and relationships
+within the data. It brings data to life. We recommend reading this article titled
+data storytelling, the essential data science
+skill everyone needs on www.forbes.com for more
+on data storytelling(https://www.forbes.com/sites/brentdykes/2016/03/31/data-storytelling-the-essential-data-science-skill-everyone-needs/?sh=5aca60cd52ad). In this video, you learned
+that matplotlib is a versatile plotting
+library that offers a flexible interface for
+creating various types of plots. Matplotlib pyplot module offers a convenient way to create
+and customize plots quickly. Data storytelling is
+the art of storytelling that involves creating a
+narrative around the data. Data visualization is
+an important aspect of data storytelling and involves
+creating, engaging visuals
