@@ -1,0 +1,50 @@
+[MUSIC] Welcome to Seaborn and regression plots. After watching this video, you'll be
+able to explain what Seaborn is and what it does,
+describe the functions of Seaborn. Although Seaborn is another
+data visualization library, it's based on Matplotlib. Seaborn offers a range
+of built-in themes and color palettes that improve the visual
+appeal of your plots with minimal effort. Seaborn makes creating plots very
+efficient, therefore, with Seaborn, you can generate plots with code that is
+five times less than with Matplotlib. Seaborn integrates well with statistical
+libraries such as NumPy and SciPy, allowing you to easily combine
+statistical analysis with visualizations. It provides specialized plot types such
+as regression plots, distribution plots, and categorical plots,
+that are particularly useful for analyzing data and modeling relationships. While Pandas and Matplotlib are powerful
+tools for data manipulation and basic visualization, Seaborn complements them
+by providing a higher level interface for creating visually appealing and
+informative statistical graphics. Seaborn works well, especially when dealing with more complex
+visualizations and statistical analyses. Let's see how we can use Seaborn
+to create a statistical graphic. Let's look into regression plots. Let's say we have a data
+frame called df_total, representing total immigration
+to Canada from 1980 to 2013. The data frame displays
+the year in one column and the corresponding total
+immigration in another. We want to create a scatter plot and a regression line to highlight
+any trends in the data. With Seaborn,
+you can do all this with one line of code. We first import Seaborn,
+and let's import it as SNS, then we call the Seaborn Regplot function. We tell it to use the data frame df_total,
+and to plot the column year on the horizontal axis and
+the column total on the vertical axis. The output of this one line of code is
+a scatter plot with a regression line, and not just that, but
+also a 95% confidence interval. Seaborn's Regplot function also
+accepts additional parameters for any personal customization, so
+you can change the color, for example, using the color parameter. Let's go ahead and
+change the color to green. Also, you can change the marker shape
+as well using the marker parameter. Let's go ahead and change the shape
+of our markers to a plus marker instead of the default circular marker. Let's try to plot some categorical data. In our Canada immigration data set, there are some categorical features
+such as country, region, and continent. Why not plot continents for
+their count in the data set? Using a single line of code, we can create
+a bar plot representing the count of records for each continent in the data
+using the counterplot function. The x parameter specifies the categorical
+variable to be plotted on the x-axis, the country, and the data parameter
+sets the data set to be used, df_Canada. Though we haven't used all observations
+from the data set, it's evident from the plot that most of the
+observations in the data are from Africa. Let's try to plot the Bohr plot
+on the categorical data from a slice of the df_Canada data set. Here we have plotted the continent
+by the total column of data. Seaborn has been grouped by
+the categorical variable continent and plotted the aggregated values of total,
+with confidence interval. You'll explore more in
+the lab session on Seaborn. In this video, you learned that Seaborn is a Data
+Visualization library based on Matplotlib. Seaborn was built primarily to
+provide a high-level interface for drawing statistical graphics. Scatter Plots and Regression Lines can be created with
+one line of code using Seaborn. Seaborn's Regplot function
+accepts additional parameters for personal customization. [MUSIC]
