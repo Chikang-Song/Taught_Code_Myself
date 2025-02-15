@@ -1,3 +1,5 @@
 .tmp.driveupload/
 
-venv*
+venv_WC/
+.venv_WC/
+venv/
