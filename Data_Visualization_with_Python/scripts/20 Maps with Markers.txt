@@ -1,0 +1,81 @@
+Welcome to Maps with Markers. After watching this video, you'll be able to explain how Folium can add
+markers to a map, and describe how to
+generate markers. With Folium you can easily
+add markers on the map. Let's first render a world
+map centered around Canada. First, import Folium, then create the map object. Remember that the location
+parameter specifies the latitude and longitude coordinates of the
+center point of the map. The zoom_start sets the initial zoom
+level of the map. In this case,
+zoom_start = 4 provides a zoomed
+out view of Canada. You can display it by simply calling canada_map. Markers play a vital
+role in enhancing interactivity and
+adding context to maps. They represent specific
+locations or points of interest, providing additional
+information when clicked. Markers are like
+signposts that guide us through the map, highlighting
+important elements. Ontario is a Canadian
+province that contains about 40% of the
+Canadian population. It is considered Canada's
+most populous province. Let's add a marker
+for Ontario province, one of the largest provinces
+in Canada to our map. Using the folium.Marker function, we specify
+the location parameter as 51.2538, -85.3232, representing the approximate
+coordinates for Ontario. Additionally, we set
+the pop-up parameter as Ontario to provide a label
+when the marker is clicked. The add_to (canada_map) method
+is called on the folium.Marker object to
+add the marker for Ontario to the
+canada_map. This ensures that the marker is included as part of
+the map’s layers and will be displayed when the canada_map
+is rendered or saved. Alternatively, we can create the marker using FeatureGroup. Let's go ahead and create a
+feature group named Ontario. Now, when a feature group
+is created, it is empty, so what's next is to
+start creating what is called children and adding
+them to the feature group. Let's create a child
+in the form of a red circular mark located at the center of the
+Ontario province. We specify the location
+of the child by passing in its latitude
+and longitude values. Once we're done adding
+children to the feature group, we add the feature
+group to the map. The result is a red circular
+mark superimposed on top of the map and added to the center of the
+province of Ontario. Now, it would be
+helpful if we could label this marker
+in order to let other people know what it
+represents. To do that, we use the marker function and the pop-up parameter to pass in the text we want to
+add to this marker. The result is our marker displays Ontario
+when clicked on. In the lab session, we will view a
+real-world example and explore the crime rate
+in San Francisco. We’ll create a map of
+San Francisco and superimposed thousands
+of these markers on top of the map. Also, how you can generate marker clusters to make your
+map look less congested. This module's lab
+session is interesting, so ensure you complete it. Displaying multiple
+markers on a map is essential when
+using larger maps. Suppose you want to show
+multiple markers on the map. How can you do
+that? It's simple. Create a list of
+all the locations, then pass this list to
+the marker function, adding an underscore to
+function through a loop and your map with
+multiple markers will be ready for display. When creating code to display
+multiple markers on a map, you can call the
+MarkerCluster object add an underscore to the function
+and pass your map here. It's the same as creating
+a list of locations. Then pass this list to the marker function
+through the loop. But this time, instead of map, use marker_cluster
+to add the underscore to functions and your map with multiple markers
+will be displayed. The markers within the marker_cluster
+will be intelligently grouped based on their proximity when
+the map is displayed. This clustering feature enhances
+the visual presentation by preventing overcrowding and ensuring a clear representation, primarily when numerous
+markers are close. In this video, you
+learned that with Folium, you can easily add
+markers on maps. The location parameter
+specifies the latitude and longitude coordinates of
+the center point of the map. Markers play a vital
+role in enhancing interactivity and adding
+context to maps. The folium.Marker function specifies
+location parameters. The pop-up parameter provides
+a label upon being clicked. Markers can be created
+using feature group.
