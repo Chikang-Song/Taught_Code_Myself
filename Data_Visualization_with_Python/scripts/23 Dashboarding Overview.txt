@@ -1,0 +1,71 @@
+Welcome to
+Dashboarding Overview. After watching this video, you'll be able to explore
+the benefits of using interactive data applications to improve business performance, and identify different web-based
+dashboarding tools available in Python. With real-time visuals
+on the dashboard, understanding business
+moving parts becomes easy. Based on the report
+type and data, suitable graphs
+and charts can be created in one central location. This provides an easy way for stakeholders to understand what is going right or wrong and what improvements
+are necessary. Also, getting the big picture
+in one place can help businesses make
+informed decisions which can improve performance. In general, the best dashboards answer
+critical business questions. Let's say you're assigned
+a task to monitor and report the performance
+of domestic US flights. Following are the yearly
+review report items: top 10 airline carriers in the year 2019 in terms of
+the number of flights, number of flights in
+2019, split by month, number of travelers
+from California state to other states split
+by distance group. Let's look at two ways of
+presenting the report. Type 1, the report is presented
+through tables with inference from tables
+documented for reference. Type 2, here, we are presenting
+the same report in the dashboard format. As you can see, hovering over each chart will provide details about
+the data points. At the bottom in
+the sunburst chart, you can click on
+different numbers, drill down into levels, and get detailed information
+about each segment. Can you observe
+the difference in the presentation
+of the findings? What if we need to
+get the report on real-time data, not static data? Also presenting the result using tables and documents
+is time-consuming, less visually appealing,
+and hard to comprehend. A data scientist should have the ability to
+create and deliver a story around the
+finding in a way stakeholders can
+easily understand. With that in mind, dashboards are the way to go. Let's take a look at web-based
+dashboarding tool options available in Python. Dash is a Python framework for building web analytic
+applications. It runs on top of flask
+plotly.js and react.js. Dash is well suited for building data visualization apps with highly customized
+user interfaces. Panel works with
+visualizations from Bokeh, Matplotlib, HoloViews, and many other Python
+plotting libraries, making them instantly viewable, either individually or when combined with interactive
+widgets that control them. Panel works equally well
+in Jupyter Notebooks for creating quick data
+exploration tools or as a standalone deployed app
+in dashboards and allows you to easily switch between
+those contexts as needed. Voila turns Jupyter notebooks into standalone
+web applications. It's compatible with
+separate layout tools like Jupyter-flex or templates
+like voila-vuetify. Streamlit can easily
+turn data scripts into shareable web apps with
+three main principles: embrace Python scripting,
+treat widgets as variables, and reuse data and computation. There are other tools that
+can be used for dashboarding. Bokeh is a plotting library, widget, and app library. It acts as a server for
+both plots and dashboards. Panel, which is one of the
+web-based dashboarding tools, is built on Bokeh. Ipywidgets provides
+a wide array of Jupyter compatible widgets and an interface supported by
+many Python libraries. But sharing as a
+dashboard requires a separate deployable
+server like voila. Matplotlib is a comprehensive library
+for creating static, animated, and interactive
+visualizations in Python. Bowtie allows users to build
+dashboards in pure Python. Flask is a Python-backed
+web server that builds arbitrary websites, including those with
+Python plots that then function as
+Flask dashboards. In this video, you learned that dashboard simplifies the
+dynamic aspect of the business. Data can be presented by using different types of dashboards. There are different types
+of dashboarding tools.
+
+Additional Resources for Dashboards
+- https://pyviz.org/dashboarding/
+- https://www.theguardian.com/news/datablog/2013/mar/15/john-snow-cholera-map

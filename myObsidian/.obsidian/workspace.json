@@ -8,49 +8,77 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f2ddebab29230529",
+            "id": "df460e2997e512d5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "APIs/Finnhub Stock API.md",
+                "file": "Developer Log/myDart/FCF 계산 Log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Finnhub Stock API"
+              "title": "FCF 계산 Log"
             }
           },
           {
-            "id": "d602d15d7741d4b7",
+            "id": "31d4b2eb726bbbc4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Developer Log/Plotly.md",
+                "file": "myStock/🧑‍💼상법개정 - 투자체크리스트.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Plotly"
+              "title": "🧑‍💼상법개정 - 투자체크리스트"
             }
           },
           {
-            "id": "04d3aaca479b2f7c",
+            "id": "3b12dc23827f42d6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "Developer Log/myDart/배당 분석 Log.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Welcome"
+              "title": "배당 분석 Log"
+            }
+          },
+          {
+            "id": "e037eeb937c27b9f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Developer Log/myDart/main 결과 재무제표에 계정 추가하기.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "main 결과 재무제표에 계정 추가하기"
+            }
+          },
+          {
+            "id": "4c83cc9c73b9b2bf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "fin_export/fin.py.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "fin.py"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -123,7 +151,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "myPrompt/{Prompt} 경력개발_관리.md",
+                "file": "APIs/Finnhub Stock API.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +161,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for {Prompt} 경력개발_관리"
+              "title": "Backlinks for Finnhub Stock API"
             }
           },
           {
@@ -142,12 +170,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "myPrompt/{Prompt} 경력개발_관리.md",
+                "file": "APIs/Finnhub Stock API.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from {Prompt} 경력개발_관리"
+              "title": "Outgoing links from Finnhub Stock API"
             }
           },
           {
@@ -171,16 +199,17 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "myPrompt/{Prompt} 경력개발_관리.md",
+                "file": "APIs/Finnhub Stock API.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of {Prompt} 경력개발_관리"
+              "title": "Outline of Finnhub Stock API"
             }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -197,15 +226,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "04d3aaca479b2f7c",
+  "active": "4c83cc9c73b9b2bf",
   "lastOpenFiles": [
-    "myPrompt/{Prompt} 경력개발_관리.md",
+    "fin_export/desktop.ini",
+    "Developer Log/desktop.ini",
+    "desktop.ini",
+    "Developer Log/myDart/main 결과 재무제표에 계정 추가하기.md",
+    "fin_export/fin.py.md",
+    "fin_export",
+    "Developer Log/myStockAnalysis/KRX _ 개별종목 ETL.md",
+    "Developer Log/myDart/배당 분석 Log.md",
+    "Developer Log/myDart/FCF 계산 Log.md",
+    "myStockAnalysis.md",
+    "Developer Log/myDart/☑ 특정 계정명 필터링 _ feat. AI.md",
+    "myStock/🧑‍💼상법개정 - 투자체크리스트.md",
+    "myPrompt/🧠 Prompt 개발 방법.md",
+    "myPrompt/{Prompt} 계정명.md",
+    "Developer Log/SQLite 쿼리에서 TEXT 형식 날짜 필터링.md",
+    "myStock/desktop.ini",
+    "Developer Log/myDart/재무제표 키워드 필터링.md",
+    "Developer Log/myStockAnalysis",
+    "Developer Log/myDart",
+    "Developer Log/myStockAnalysis/marcap_rank.py.md",
+    "Developer Log/Decorator_ 개념, 사례, Pine library.md",
+    "Developer Log/dotenv - 환경변수로드.md",
     "Developer Log/Plotly.md",
-    "myPrompt",
-    "Welcome.md",
-    "Untitled.canvas",
+    "myPrompt/{prompt} Financial Analyst and Stock Trader.md",
+    "myStock",
+    "myPrompt/{Prompt} 경력개발_관리.md",
     "APIs/Finnhub Stock API.md",
-    "Developer Log/데코레이터_ 개념, 사례, Pine library.md",
+    "Welcome.md",
+    "myPrompt",
+    "Untitled.canvas",
     "Developer Log",
     "APIs"
   ]

@@ -1,0 +1,122 @@
+Hello, and welcome to overview
+of data visualization. After watching this video, you'll be able to explain what data visualization is
+and why it's important. Describe the uses for
+data visualization. Explore the best practices
+for data visualization. Data visualization is the
+graphical representation of data and information. It involves the
+process of creating visual representations of data. Data visualization can
+take many different forms, from basic charts and graphs to more complex
+interactive dashboards, maps, and infographics. Basic charts and graphs
+are the simplest form of data visualization to
+represent numerical data. Interactive dashboards and
+maps are more complex forms of visualization to provide
+real-time information. We need data visualization
+for several reasons. Data visualization helps
+us to easily understand complex datasets that might be difficult to comprehend
+in their raw form. It can highlight
+patterns, trends, and relationships
+that might not be immediately apparent from
+looking at the data. Visualization enables us to
+communicate insights and findings to stakeholders in a more compelling and
+understandable way. It allows us to tell
+a story with data, making it easier
+for stakeholders to understand and act on the
+information presented. Visualization helps us
+identify trends and data patterns that might
+otherwise be difficult to see. We can gain new insights and
+make informed decisions by examining data over time or
+across different dimensions. Presenting data in a more easily understood
+and interpreted way enables us to identify
+opportunities, spot potential problems, and
+make more informed choices. Let's explore how
+data visualization can help us understand data. The New York Times, a well-known news publication, has used data visualization
+to help people understand the impact of the COVID-19
+pandemic in the United States. The number of daily
+new reported cases and the number of deaths
+are shown through a line graph and the vaccinated
+population percentage is displayed using a bar graph. Airbnb uses smart pricing
+framework to assist hosts and determining the best possible prices
+for their listings, thereby increasing their
+profits using a bar graph, the chart displays the
+lead time distribution aggregated to a market level. Spotify uses Spotify Pie, a unique data visualization tool that enables
+users to create customized pie charts based on their listening
+habits on Spotify. The chart displays the
+distribution of different genres, artists, and tracks the
+user has listened to. What you see here is
+a choropleth map on Netflix's Insight
+Tool dashboard with other visualizations like
+line graphs and bar plots. These dynamic
+dashboards help them gain a deeper understanding
+of operations, identify areas for improvement, and quickly address any issues. Data visualization
+is an essential tool for anyone dealing with data. Companies can gain insights
+into market trends, financial performance,
+and customer behavior. Healthcare professionals
+can identify patterns in patient data and develop
+targeted treatment plants. Visualization helps analyze student
+performance and inform instructional decisions leading to better academic outcomes. Visualization helps
+governments make informed decisions and
+communicate data to the public. Visualization helps
+scientists and researchers analyze
+complex data, develop new insights, and
+share findings effectively. Visualization helps workers and the entertainment
+industry determined ratings and
+ultimately signals to the creators what
+the audience wants. Although data visualization
+has become an essential tool, not all visualizations
+are created equal. To create effective
+visualizations, it's important to follow best practices that can
+help ensure that the data is accurately represented and the message is
+clearly communicated. One key best
+practice is choosing the appropriate
+visualization type for the presented data. Different types of data require different
+visualization techniques. Choose the right one to communicate that
+data effectively. Keep the visualization
+simple and easy to read. A line chart shows
+trends over time. Well, a bar chart is ideal
+for comparing values. To ensure that the data is
+accurately represented, it's also important
+to label the axis clearly and provide context
+for the data being presented. Include a clear title, summarizing the main
+message and a legend explaining the meaning of
+any symbols or colors used. Including unnecessary
+graphics or information, can confuse the audience and distract them from
+the main message. Keep visualization
+focused on the main point and use only the necessary
+data and labels. Lastly, it's
+important to consider the audience when creating
+the visualization. Who will view the visualization? What do they need to know? The visualization should be tailored to their needs
+and understanding. What do you think about this
+plot or this pie chart? What is the data
+trying to convey? In these charts, there
+are a lot of variables and the information is more
+difficult to understand. This is an example of
+bad data visualization. This chart represents
+a team's board. The stacked bars depict
+the percentage of the work assigned to the individual
+users and their work progress. Colors are distinguishable
+and consistent. The legend shows the
+individual color's meanings. The chart provides
+more clarity with the values and percentages
+on top of each bar. Darkhorse Analytics is a
+company that was created out of a research lab at the
+University of Alberta in 2008. The company has done
+fascinating work on data visualization. Darkhorse Analytics
+specializes in quantitative consulting
+in several areas, including data visualization
+and geospacial analysis. Their approach when
+creating a visual revolves around the idea that
+less is more effective, more attractive,
+and more impactful. By following these
+best practices, data visualizations can
+become a powerful tool. Checkout the Darkhorse
+Analytics website for examples of
+good and bad plots. In this video, you learned that, data visualization
+is the process of presenting data in
+a visual format, such as charts, graphs, and maps to help people understand and
+analyze data easily. Data visualization has diverse use cases
+such as business, science, health
+care, and finance. It's important to
+follow best practices, such as selecting
+appropriate visualizations for the data being presented, choosing colors and fonts
+that are easy to read and interpret, and
+minimizing clutter

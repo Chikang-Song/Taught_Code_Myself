@@ -1,0 +1,81 @@
+Welcome to Introduction
+to Plotly. After watching this video, you'll be able to explore Plotly and it's two sub-modules, discover how to use Plotly
+graph objects and Plotly express to create customized
+and interactive charts. What is Plotly? Plotly is an interactive,
+open-source plotting library that supports over
+40 unique chart types. It's available in
+Python and JavaScript. Plotly Python is an extension of Plotly JavaScript Library and includes chart types
+like statistical, financial, maps, scientific,
+and three-dimensional data. The web-based visualizations
+created using Plotly Python can be displayed
+in Jupiter Notebook, saved to standalone HTML files, or served as part of pure Python build web
+applications using dash. Here, we'll be focusing on the two sub-modules of Plotly; Plotly Graph Objects
+and Plotly Express. Plotly Graph Objects is the low-level interface to
+figures, traces and layout. The Plotly Graph
+Objects module provides an automatically
+generated hierarchy of classes, figures, traces, and layout called graph objects that are used for
+representing figures with a top-level class
+Plotly.graph_objects.Figure. Plotly Express is a high
+level wrapper for Plotly. It's a recommended starting
+point for creating the most common figures
+provided by Plotly. Because if it's simple syntax, it uses graph
+objects internally. Let's see how to use plotly.graph_objects submodule with a simple line
+chart creation example. First, import the
+required packages. Here we're importing
+graph objects as go. By writing the code, import plotly.graph_objects
+as go. Then we're importing
+Plotly Express with import plotly.express
+as px command. Lastly, we need numpy to
+generate sample data. We're importing numpy,
+import numpy as np, then generate sample data
+with np.random.seed(10). We're setting random seed
+for reproducibility. Now let's create an array of 12 elements; x=np.arrange(12). Let's create random y values by using random module
+y=np.random.randint (50, 500, size=12). The plotly.graph contains
+the JSON object, which has a
+dictionary structure. Since we imported
+Plotly Graph Objects as go in the previous slide, go will be the JSON object. The chart can be
+plotted by updating the values of the
+go object keywords. We create the figure by adding a trace which is
+called Scatter, here. Let's view the code; fig = go.Figure(
+data=go.Scatter( x=x, y=y)). Next, the layout
+of the figure is updated using the
+update layout method. Here we are updating the x-axis, y-axis, and chart title. Let us view the code; fig.update_layout( title=
+'Simple Line Plot', xaxis_title= 'Month',
+yaxis_title= 'Sales'). Then fig.show method is called to display
+the created plot. This is the plotted figure. Now we will create the same line chart
+using Plotly Express. As you can see in the example, the entire line chart can be created using a single command. Let's view the code; hashtag, entire line chart can be
+created in a single command; fig=px.line( x=x, y=y, title= 'Simple Line
+Plot', labels=dict, (x= 'Month', y=
+'Sales') fig.show(). Visualization is
+automatically interactive. Plotly Express
+makes visualization easy to create and modify. It's time to play with
+the Plotly library. We'll use the airline
+reporting dataset from the data asset exchange to demonstrate how to use Plotly Graph Objects and
+express to create charts. Here's a quick overview of the
+airline reporting dataset. The reporting carrier on-time performance dataset
+contains information on approximately 200 million
+domestic US flights reported to the United States Bureau of Transportation
+Statistics. The dataset contains basic
+information about each flight, such as date, time,
+departure airport, and arrival airport,
+and if applicable, the length of time the
+flight was delayed and information about the
+reason for the delay. In this video, you
+learned that Plotly is an interactive open-source
+plotting library that supports over 40
+unique chart types. Plotly graph objects is the low-level interface to
+figures, traces, and layout. Plotly Express is a high-level
+wrapper for Plotly. It uses graph
+objects internally.
+
+Additional Resources for Plotly
+- Plotly in Python :  https://plotly.com/python/getting-started/
+- Graph Objects in Python : https://plotly.com/python/graph-objects/
+- Plotly Express in Python : https://plotly.com/python/plotly-express/
+- API reference for plotly : https://plotly.com/python-api-reference/
+Here are additional useful resources:
+
+- Plotly cheatsheet : https://images.plot.ly/plotly-documentation/images/plotly_js_cheat_sheet.pdf
+- Plotly community : https://community.plotly.com/c/api/5
+- Related blogs : https://plotlygraphs.medium.com/
+- Open-source datasets : https://developer.ibm.com/exchanges/data/
